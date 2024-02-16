@@ -1,0 +1,12 @@
+.nba {
+    display: flex;
+    justify-content: center;
+}
+
+.easternConference {
+    width: 70px;
+}
+
+.westernConference {
+    width: 70px;
+}

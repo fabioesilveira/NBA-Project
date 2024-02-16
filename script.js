@@ -1,151 +1,28 @@
-const easternConference = [
-   
-    {
-        id: 1,
-        team: "76niers",
-        url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        currentlyPlayers: ["J.Kuminga", "A.Wiggins", "D.Green", "B.Podziemski", "S.Curry", "D.Saric", "K.Thompson", "K.Looney"],
-        stadium: "Wells Fargo Center",
-        titles: {
-            nbaTitles: 3,
-            championshipsWon: [1955, 1967, 1983]
-        },
-        based: "Philadelphia - Pennsylvania"
-    },
-    {
-        id: 2,
-        team: "Celtics",
-        url: "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        currentlyPlayers: ["J.Tatum", "J.Brown", "K.Porzingis", "D.White", "J.Holiday", "A.Horford", "S.Hauser", "O.Brisset"],
-        stadium: "TD Garden",
-        titles: {
-            nbaTitles: 17,
-            championshipsWon: [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008]
-        },
-        based: "Boston - Massachusetts"
-    },
-    {
-        id:3,
-        team: "Bulls",
-        url: "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        currentlyPlayers: ["L.James", "T.Prince", "A.Davis", "D.Russell", "A.Reaves", "C.Wood", "R.Hachimura", "M.Christie" ],
-        stadium: "United Center",
-        titles: {
-            nbaTitles: 6,
-            championshipsWon: [1991, 1992, 1993, 1996, 1997, 1998]
-        },
-        based: "Chicago - Illinois"
-    },
-    {
-        id: 4,
-        team: "Heat",
-        url: "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "Kaseya Center",
-        titles: {
-            nbaTitles: 3,
-            championshipsWon: [2006, 2012, 2013]
-        },
-        based: "Miami - Florida"
-    },
-    {
-        id: 5,
-        team: "Cavaliers",
-        url: "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "Rocket Mortgage FieldHouse",
-        titles: {
-            nbaTitles: 1,
-            championshipsWon: [2016]
-        },
-        based: "Cleveland - Ohio"
-    },
-    {
-        id: 6,
-        team: "Bucks",
-        url: "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "Fiserv Forum",
-        titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
-        },
-        based: "Milwaukee - Wisconsin"
-    }
+import { easternConference, westernConference } from "./data.js"
 
-];
 
-const westernConference = [
+const easternTeams = document.getElementById("easternTeams")
+for (const element of easternConference) {
+   easternTeams.innerHTML += `
+    <img class = "easternConference" src="${element.url}">
+    <h3>${element.team}</h3>
+    <p>Stadium:${element.stadium}</p>
+    <p>Players:${element.currentlyPlayers}</p>
+    <p class="text-primary">NBA titles:${element.titles.nbaTitles}</p>
+    <p>Year:${element.titles.championshipsWon}</p>
+   `
+}
+console.log(easternTeams)
+
+const westernTeams = document.getElementById("westernTeams")
+for (const element of westernConference) {
+    westernTeams.innerHTML += `
+    <img class = "westernConference" src="${element.url}">
+    <h3>${element.team}</h3>
+    <p>Stadium:${element.stadium}</p>
+    <p>Players:${element.currentlyPlayers}</p>
+    <p>NBA titles:${element.titles.nbaTitles}</p>
+    <p>Year:${element.titles.championshipsWon}</p>
+    `
     
-    {
-        id: 7,
-        team: "Warriors",
-        url: "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
-        currentlyPlayers: ["J.Kuminga", "A.Wiggins", "D.Green", "B.Podziemski", "S.Curry", "D.Saric", "K.Thompson", "K.Looney"],
-        stadium: "Chase Center",
-        titles: {
-            nbaTitles: 7,
-            championshipsWon: [1947, 1956, 1975, 2015, 2017, 2018, 2022]
-        },
-        based: "San Francisco - California"
-    },
-    {
-        id: 8,
-        team: "Nuggets",
-        url: "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
-        currentlyPlayers: ["J.Tatum", "J.Brown", "K.Porzingis", "D.White", "J.Holiday", "A.Horford", "S.Hauser", "O.Brisset"],
-        stadium: "Ball Arena",
-        titles: {
-            nbaTitles: 1,
-            championshipsWon: [2023]
-        },
-        based: "Denver - Colorado"
-    },
-    {
-        id: 9,
-        team: "Lakers",
-        url: "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
-        currentlyPlayers: ["L.James", "T.Prince", "A.Davis", "D.Russell", "A.Reaves", "C.Wood", "R.Hachimura", "M.Christie" ],
-        stadium: "Crypto.com Arena",
-        titles: {
-            nbaTitles: 17,
-            championshipsWon: [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020]
-        },
-        based: "Los Angeles - California"
-    },
-    {
-        id: 10,
-        team: "Mavericks",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "American Airlines Center",
-        titles: {
-            nbaTitles: 1,
-            championshipsWon: [2011]
-        },
-        based: "Dallas - Texas"
-    },
-    {
-        id: 11,
-        team: "Grizzlies",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "FedExForum",
-        titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
-        },
-        based: "Memphis - Tennessee"
-    },
-    {
-        id: 12,
-        team: "Clippers",
-        url: "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
-        stadium: "Crypto.com Arena",
-        titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
-        },
-        based: "Los Angeles - California"
-    }
-
-];
+}
