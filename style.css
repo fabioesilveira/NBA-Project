@@ -1,6 +1,7 @@
 .nba {
     display: flex;
     justify-content: center;
+    background-color: #e3f2fd
 }
 
 .easternConference {
@@ -10,3 +11,4 @@
 .westernConference {
     width: 70px;
 }
+
