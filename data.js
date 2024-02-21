@@ -2,7 +2,7 @@ export const easternConference = [
    
     {
         id: 1,
-        team: "76niers",
+        team: "76ers",
         url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
         currentlyPlayers: [""],
         stadium: "Wells Fargo Center",

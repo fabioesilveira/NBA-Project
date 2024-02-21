@@ -1,4 +1,4 @@
-const easternRegularSeason = [
+export const easternRegularSeason = [
 
     {
         id: 1,
@@ -57,4 +57,4 @@ const easternRegularSeason = [
 
     },
 
-]
+];
