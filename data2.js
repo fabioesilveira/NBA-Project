@@ -56,6 +56,55 @@ export const easternRegularSeason = [
         l: 25
 
     },
+    {
+        id: 9,
+        team: "Bulls",
+        w: 27,
+        l: 30
+
+    },
+    {
+        id: 10,
+        team: "Hawks",
+        w: 25,
+        l: 32
+
+    },
+    {
+        id: 11,
+        team: "Nets",
+        w: 22,
+        l: 35
+
+    },
+    {
+        id: 12,
+        team: "Raptors",
+        w: 22,
+        l: 36
+
+    },
+    {
+        id: 13,
+        team: "Hornets",
+        w: 15,
+        l: 42
+
+    },
+    {
+        id: 14,
+        team: "Wizards",
+        w: 9,
+        l: 48
+
+    },
+    {
+        id: 15,
+        team: "Pistons",
+        w: 8,
+        l: 49
+
+    },
 
 ];
 
@@ -150,4 +199,4 @@ const westernRegularSeason = [
         w: 11,
         l: 47
     },
-]
+];
