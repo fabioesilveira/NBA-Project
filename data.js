@@ -71,7 +71,19 @@ export const easternConference = [
             championshipsWon: [1971, 2021]
         },
         based: "Milwaukee - Wisconsin"
-    }
+    },
+    {
+        id: 7,
+        team: "Nets",
+        url: "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
 
 ];
 

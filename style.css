@@ -1,7 +1,7 @@
 .nba {
     display: flex;
     justify-content: center;
-    background-color: #e3f2fd
+    
 }
 
 .easternConference {
@@ -12,3 +12,20 @@
     width: 70px;
 }
 
+.h1 {
+  font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+
+}
