@@ -186,7 +186,7 @@ export const easternConference = [
 export const westernConference = [
     
     {
-        id: 7,
+        id: 16,
         team: "Warriors",
         url: "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
         currentlyPlayers: ["J.Kuminga", "A.Wiggins", "D.Green", "B.Podziemski", "S.Curry", "D.Saric", "K.Thompson", "K.Looney"],
@@ -198,7 +198,7 @@ export const westernConference = [
         based: "San Francisco - California"
     },
     {
-        id: 8,
+        id: 17,
         team: "Nuggets",
         url: "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
         currentlyPlayers: [""],
@@ -210,7 +210,7 @@ export const westernConference = [
         based: "Denver - Colorado"
     },
     {
-        id: 9,
+        id: 18,
         team: "Lakers",
         url: "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
         currentlyPlayers: ["L.James", "T.Prince", "A.Davis", "D.Russell", "A.Reaves", "C.Wood", "R.Hachimura", "M.Christie" ],
@@ -222,7 +222,7 @@ export const westernConference = [
         based: "Los Angeles - California"
     },
     {
-        id: 10,
+        id: 19,
         team: "Mavericks",
         url: "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
         currentlyPlayers: [""],
@@ -234,7 +234,7 @@ export const westernConference = [
         based: "Dallas - Texas"
     },
     {
-        id: 11,
+        id: 20,
         team: "Grizzlies",
         url: "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
         currentlyPlayers: ["T.Jemison", "V.Williams Jr.", "Z.Williams", "GG.Jackson II", "L.Stevens", "J.Goodwin", "S.Aldama", "J.Gilyard"],
@@ -246,7 +246,7 @@ export const westernConference = [
         based: "Memphis - Tennessee"
     },
     {
-        id: 12,
+        id: 21,
         team: "Clippers",
         url: "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
@@ -256,6 +256,114 @@ export const westernConference = [
             championshipsWon: 0,
         },
         based: "Los Angeles - California"
-    }
-
+    },
+    {
+        id: 22,
+        team: "Timberwolves",
+        url: "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 23,
+        team: "Thunder",
+        url: "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 24,
+        team: "Trail Blazers",
+        url: "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 25,
+        team: "Jazz",
+        url: "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 26,
+        team: "Suns",
+        url: "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 27,
+        team: "Kings",
+        url: "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 28,
+        team: "Rockets",
+        url: "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 29,
+        team: "Pelicans",
+        url: "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    {
+        id: 30,
+        team: "Spurs",
+        url: "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
+        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        stadium: "Crypto.com Arena",
+        titles: {
+            nbaTitles: 0,
+            championshipsWon: 0,
+        },
+        based: "Los Angeles - California"
+    },
+    
 ];
