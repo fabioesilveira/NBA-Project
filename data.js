@@ -77,7 +77,7 @@ export const easternConference = [
         team: "Nets",
         url: "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Barclays Center",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -89,7 +89,7 @@ export const easternConference = [
         team: "Pistons",
         url: "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Little Caesars Arena",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -101,7 +101,7 @@ export const easternConference = [
         team: "Raptors",
         url: "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Scotiabank Arena",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -113,7 +113,7 @@ export const easternConference = [
         team: "Knicks",
         url: "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Madison Square Garden",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -125,7 +125,7 @@ export const easternConference = [
         team: "Pacers",
         url: "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Gainbridge Fieldhouse",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -137,7 +137,7 @@ export const easternConference = [
         team: "Hawks",
         url: "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "State Farm Arena",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -149,7 +149,7 @@ export const easternConference = [
         team: "Hornets",
         url: "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Spectrum Center",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -161,7 +161,7 @@ export const easternConference = [
         team: "Magic",
         url: "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Kia Center",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
@@ -173,13 +173,13 @@ export const easternConference = [
         team: "Wizards",
         url: "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
         currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
-        stadium: "Fiserv Forum",
+        stadium: "Capital One Arena",
         titles: {
             nbaTitles: 2,
             championshipsWon: [1971, 2021]
         },
         based: "Milwaukee - Wisconsin"
-    },
+    }
 
 ];
 
@@ -262,7 +262,7 @@ export const westernConference = [
         team: "Timberwolves",
         url: "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Target Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -274,7 +274,7 @@ export const westernConference = [
         team: "Thunder",
         url: "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Playcom Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -286,7 +286,7 @@ export const westernConference = [
         team: "Trail Blazers",
         url: "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Moda Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -298,7 +298,7 @@ export const westernConference = [
         team: "Jazz",
         url: "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Delta Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -310,7 +310,7 @@ export const westernConference = [
         team: "Suns",
         url: "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Footprint Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -322,7 +322,7 @@ export const westernConference = [
         team: "Kings",
         url: "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Golden 1 Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -334,7 +334,7 @@ export const westernConference = [
         team: "Rockets",
         url: "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Toyota Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -346,7 +346,7 @@ export const westernConference = [
         team: "Pelicans",
         url: "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Smoothie King Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
@@ -358,12 +358,12 @@ export const westernConference = [
         team: "Spurs",
         url: "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
         currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
-        stadium: "Crypto.com Arena",
+        stadium: "Frost Bank Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
         },
         based: "Los Angeles - California"
-    },
+    }
     
 ];
