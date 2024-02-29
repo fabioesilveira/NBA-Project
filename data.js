@@ -84,6 +84,102 @@ export const easternConference = [
         },
         based: "Milwaukee - Wisconsin"
     },
+    {
+        id: 8,
+        team: "Pistons",
+        url: "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 9,
+        team: "Raptors",
+        url: "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 10,
+        team: "Knicks",
+        url: "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 11,
+        team: "Pacers",
+        url: "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 12,
+        team: "Hawks",
+        url: "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 13,
+        team: "Hornets",
+        url: "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 14,
+        team: "Magic",
+        url: "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
+    {
+        id: 15,
+        team: "Wizards",
+        url: "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
+        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        stadium: "Fiserv Forum",
+        titles: {
+            nbaTitles: 2,
+            championshipsWon: [1971, 2021]
+        },
+        based: "Milwaukee - Wisconsin"
+    },
 
 ];
 
