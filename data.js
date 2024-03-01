@@ -189,7 +189,7 @@ export const westernConference = [
         id: 16,
         team: "Warriors",
         url: "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
-        currentlyPlayers: ["J.Kuminga", "A.Wiggins", "D.Green", "B.Podziemski", "S.Curry", "D.Saric", "K.Thompson", "K.Looney"],
+        currentlyPlayers: ["J. Kuminga-0", "C. Paul-3", "B. Podziemski-2", "S. Curry-30", "K. Thompson-11",],
         stadium: "Chase Center",
         titles: {
             nbaTitles: 7,
@@ -201,7 +201,7 @@ export const westernConference = [
         id: 17,
         team: "Nuggets",
         url: "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
-        currentlyPlayers: ["J.Murray-27","K.Caldwell-Pope-5","M.Porter Jr.-1","A.Gordon-50","N.Jokic-15"],
+        currentlyPlayers: ["J. Murray-27","K. Caldwell-Pope-5","M. Porter Jr.-1","A. Gordon-50","N. Jokic-15"],
         stadium: "Ball Arena",
         titles: {
             nbaTitles: 1,
@@ -213,7 +213,7 @@ export const westernConference = [
         id: 18,
         team: "Lakers",
         url: "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
-        currentlyPlayers: ["L.James", "T.Prince", "A.Davis", "D.Russell", "A.Reaves", "C.Wood", "R.Hachimura", "M.Christie" ],
+        currentlyPlayers: ["L. James-23", "A. Davis-3", "D. Russell-1", "A. Reaves-15", "R. Hachimura-28"],
         stadium: "Crypto.com Arena",
         titles: {
             nbaTitles: 17,
@@ -225,7 +225,7 @@ export const westernConference = [
         id: 19,
         team: "Mavericks",
         url: "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
-        currentlyPlayers: [""],
+        currentlyPlayers: ["L. Doncic-77", "K. Irving-11", "J. Green-8", "P. Washington-25", "D. L. II-2"],
         stadium: "American Airlines Center",
         titles: {
             nbaTitles: 1,
