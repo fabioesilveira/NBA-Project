@@ -13,19 +13,28 @@
 }
 
 .h1 {
-  font-family: "Rubik Distressed", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  text-align: center;
+    font-family: "Rubik Distressed", system-ui;
+    color: rgb(201, 7, 7);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
 }
 
 .h2 {
     display: flex;
-    justify-content: center;
     font-family: "Rubik Distressed", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
+    color: rgb(36, 36, 142);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
 
+}
+
+.east {
+    margin-left: 300px;
+}
+
+.west {
+    margin-left: 550px;
 }

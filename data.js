@@ -4,7 +4,7 @@ export const easternConference = [
         id: 1,
         team: "76ers",
         url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        currentlyPlayers: [""],
+        currentlyPlayers: ["J.Embiid-21","T.Harris-12","T.Maxey-0","K.Oubre Jr.-9","P.Reed-44"],
         stadium: "Wells Fargo Center",
         titles: {
             nbaTitles: 3,
@@ -16,7 +16,7 @@ export const easternConference = [
         id: 2,
         team: "Celtics",
         url: "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        currentlyPlayers: ["J.Tatum", "J.Brown", "K.Porzingis", "D.White", "J.Holiday", "A.Horford", "S.Hauser", "O.Brisset"],
+        currentlyPlayers: ["J.Holiday-4","D.WHite-9","J.Brown-7","J.Tatum-0","K.Porzingis-8"],
         stadium: "TD Garden",
         titles: {
             nbaTitles: 17,
@@ -28,7 +28,7 @@ export const easternConference = [
         id:3,
         team: "Bulls",
         url: "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        currentlyPlayers: ["" ],
+        currentlyPlayers: ["C.White-0","A.Dosunmu-12","D.DeRozan-11","A.Drummond-3","N.Vucevic-9" ],
         stadium: "United Center",
         titles: {
             nbaTitles: 6,
@@ -40,7 +40,7 @@ export const easternConference = [
         id: 4,
         team: "Heat",
         url: "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler", "Bam Adebayo", "T.Herro", "T.Rozier", "J.Richardson", "C.Martin", "K.Love", "J.Jaquez Jr"],
+        currentlyPlayers: ["J.Butler-22", "Bam Adebayo-13", "T.Rozier-2", "D.Robinson-55", "N.Jovic-5"],
         stadium: "Kaseya Center",
         titles: {
             nbaTitles: 3,
@@ -52,7 +52,7 @@ export const easternConference = [
         id: 5,
         team: "Cavaliers",
         url: "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
-        currentlyPlayers: [""],
+        currentlyPlayers: ["D.Garland-10","M.Strus-1","D.Mitchell-45","E.Mobley-4","J.Allen-31"],
         stadium: "Rocket Mortgage FieldHouse",
         titles: {
             nbaTitles: 1,
@@ -64,7 +64,7 @@ export const easternConference = [
         id: 6,
         team: "Bucks",
         url: "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["G.Antetokounmpo-34", "D.Lillard-0", "B.Lopez-11", "J.Crowder-99", "M.Beasley-5"],
         stadium: "Fiserv Forum",
         titles: {
             nbaTitles: 2,
@@ -76,7 +76,7 @@ export const easternConference = [
         id: 7,
         team: "Nets",
         url: "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["D.Schroder-17","M.Bridges-1","C.Johnson-2","D.Finney-Smith-28","N.Claxton-33"],
         stadium: "Barclays Center",
         titles: {
             nbaTitles: 2,
@@ -88,7 +88,7 @@ export const easternConference = [
         id: 8,
         team: "Pistons",
         url: "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["C.Cunningham-2","J.Ivey-23","A.Thompson-9","I.Stewart-28","J-Duren-0"],
         stadium: "Little Caesars Arena",
         titles: {
             nbaTitles: 2,
@@ -100,7 +100,7 @@ export const easternConference = [
         id: 9,
         team: "Raptors",
         url: "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["I.Quickley-5","R.Barret-9","G.Trent Jr-33", "S.Barnes-4","J.Poeltl-19"],
         stadium: "Scotiabank Arena",
         titles: {
             nbaTitles: 2,
@@ -201,7 +201,7 @@ export const westernConference = [
         id: 17,
         team: "Nuggets",
         url: "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
-        currentlyPlayers: [""],
+        currentlyPlayers: ["J.Murray-27","K.Caldwell-Pope-5","M.Porter Jr.-1","A.Gordon-50","N.Jokic-15"],
         stadium: "Ball Arena",
         titles: {
             nbaTitles: 1,
