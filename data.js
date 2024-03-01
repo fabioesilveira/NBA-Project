@@ -4,7 +4,7 @@ export const easternConference = [
         id: 1,
         team: "76ers",
         url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        currentlyPlayers: ["J.Embiid-21","T.Harris-12","T.Maxey-0","K.Oubre Jr.-9","P.Reed-44"],
+        currentlyPlayers: ["J. Embiid-21","T. Harris-12","T. Maxey-0","K. Oubre Jr.-9","P. Reed-44"],
         stadium: "Wells Fargo Center",
         titles: {
             nbaTitles: 3,
@@ -16,7 +16,7 @@ export const easternConference = [
         id: 2,
         team: "Celtics",
         url: "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        currentlyPlayers: ["J.Holiday-4","D.WHite-9","J.Brown-7","J.Tatum-0","K.Porzingis-8"],
+        currentlyPlayers: ["J. Holiday-4","D. WHite-9","J. Brown-7","J. Tatum-0","K. Porzingis-8"],
         stadium: "TD Garden",
         titles: {
             nbaTitles: 17,
@@ -28,7 +28,7 @@ export const easternConference = [
         id:3,
         team: "Bulls",
         url: "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        currentlyPlayers: ["C.White-0","A.Dosunmu-12","D.DeRozan-11","A.Drummond-3","N.Vucevic-9" ],
+        currentlyPlayers: ["C. White-0","A. Dosunmu-12","D. DeRozan-11","A. Drummond-3","N. Vucevic-9" ],
         stadium: "United Center",
         titles: {
             nbaTitles: 6,
@@ -40,7 +40,7 @@ export const easternConference = [
         id: 4,
         team: "Heat",
         url: "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
-        currentlyPlayers: ["J.Butler-22", "Bam Adebayo-13", "T.Rozier-2", "D.Robinson-55", "N.Jovic-5"],
+        currentlyPlayers: ["J. Butler-22", "Bam Adebayo-13", "T. Rozier-2", "D. Robinson-55", "N. Jovic-5"],
         stadium: "Kaseya Center",
         titles: {
             nbaTitles: 3,
@@ -52,7 +52,7 @@ export const easternConference = [
         id: 5,
         team: "Cavaliers",
         url: "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
-        currentlyPlayers: ["D.Garland-10","M.Strus-1","D.Mitchell-45","E.Mobley-4","J.Allen-31"],
+        currentlyPlayers: ["D. Garland-10","M. Strus-1","D. Mitchell-45","E. Mobley-4","J. Allen-31"],
         stadium: "Rocket Mortgage FieldHouse",
         titles: {
             nbaTitles: 1,
@@ -64,7 +64,7 @@ export const easternConference = [
         id: 6,
         team: "Bucks",
         url: "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo-34", "D.Lillard-0", "B.Lopez-11", "J.Crowder-99", "M.Beasley-5"],
+        currentlyPlayers: ["G. Antetokounmpo-34", "D. Lillard-0", "B. Lopez-11", "J. Crowder-99", "M. Beasley-5"],
         stadium: "Fiserv Forum",
         titles: {
             nbaTitles: 2,
@@ -76,11 +76,11 @@ export const easternConference = [
         id: 7,
         team: "Nets",
         url: "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        currentlyPlayers: ["D.Schroder-17","M.Bridges-1","C.Johnson-2","D.Finney-Smith-28","N.Claxton-33"],
+        currentlyPlayers: ["D. Schroder-17","M. Bridges-1","C. Johnson-2","D. Finney-Smith-28","N. Claxton-33"],
         stadium: "Barclays Center",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 0,
+            championshipsWon: 0
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -88,11 +88,11 @@ export const easternConference = [
         id: 8,
         team: "Pistons",
         url: "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        currentlyPlayers: ["C.Cunningham-2","J.Ivey-23","A.Thompson-9","I.Stewart-28","J-Duren-0"],
+        currentlyPlayers: ["C. Cunningham-2","J. Ivey-23","A. Thompson-9","I. Stewart-28","J.Duren-0"],
         stadium: "Little Caesars Arena",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 3,
+            championshipsWon: [1989, 1990, 2004]
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -100,11 +100,11 @@ export const easternConference = [
         id: 9,
         team: "Raptors",
         url: "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
-        currentlyPlayers: ["I.Quickley-5","R.Barret-9","G.Trent Jr-33", "S.Barnes-4","J.Poeltl-19"],
+        currentlyPlayers: ["I. Quickley-5","R. Barret-9","G. Trent Jr-33", "S. Barnes-4","J. Poeltl-19"],
         stadium: "Scotiabank Arena",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 1,
+            championshipsWon: 2019
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -112,11 +112,11 @@ export const easternConference = [
         id: 10,
         team: "Knicks",
         url: "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["J. Randle-30", "M. McBride-2", "J. Hart-3", "D. DiVincenzo-0", "J. Brunson-11"],
         stadium: "Madison Square Garden",
         titles: {
             nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            championshipsWon: [1970, 1973]
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -124,11 +124,11 @@ export const easternConference = [
         id: 11,
         team: "Pacers",
         url: "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["T. Haliburton-0","A. Nembhard-2","B. Mathurin-00","P. Siakam-43","M. Turner-33"],
         stadium: "Gainbridge Fieldhouse",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 0,
+            championshipsWon: 0
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -136,11 +136,11 @@ export const easternConference = [
         id: 12,
         team: "Hawks",
         url: "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["D. Murray-5","B. Bogdanovic-13","S. Bey-41","C. Capela-15","Trae Young-11"],
         stadium: "State Farm Arena",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 1,
+            championshipsWon: 1958
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -148,11 +148,11 @@ export const easternConference = [
         id: 13,
         team: "Hornets",
         url: "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["T. Mann-23", "B. Miller-24", "M. Bridges-0", "N. Richards-4", "L. Ball-1"],
         stadium: "Spectrum Center",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 0,
+            championshipsWon: 0
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -160,11 +160,11 @@ export const easternConference = [
         id: 14,
         team: "Magic",
         url: "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["J. Suggs-4", "G. Harris-14", "C. Houstan-2", "F. Wagner-22", "W. Carter Jr.-34"],
         stadium: "Kia Center",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 0,
+            championshipsWon: 0
         },
         based: "Milwaukee - Wisconsin"
     },
@@ -172,11 +172,11 @@ export const easternConference = [
         id: 15,
         team: "Wizards",
         url: "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        currentlyPlayers: ["G.Antetokounmpo", "D.Lillard", "B.Portis Jr", "B.Lopez", "J.Crowder", "M.Beasley", "P.Connaughton", "AJ Green"],
+        currentlyPlayers: ["J. Poole-13","T. Jones-5","K. Kuzma-33","C. Kispert-24","M. B. III-35"],
         stadium: "Capital One Arena",
         titles: {
-            nbaTitles: 2,
-            championshipsWon: [1971, 2021]
+            nbaTitles: 1,
+            championshipsWon: 1978
         },
         based: "Milwaukee - Wisconsin"
     }
@@ -357,7 +357,7 @@ export const westernConference = [
         id: 30,
         team: "Spurs",
         url: "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["K.Johnson-3","T.Jones-33","J.Sochan-10","V.Wembanyama-1","D.Vassell-24"],
         stadium: "Frost Bank Center",
         titles: {
             nbaTitles: 0,
