@@ -108,7 +108,7 @@ export const easternRegularSeason = [
 
 ];
 
-const westernRegularSeason = [
+export const westernRegularSeason = [
     {
         id: 1,
         team: "Timberwolves",
