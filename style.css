@@ -6,10 +6,12 @@
 
 .easternConference {
     width: 70px;
+    margin-left: 312px;
 }
 
 .westernConference {
     width: 70px;
+    margin-left: 312px;
 }
 
 .h1 {
@@ -32,9 +34,9 @@
 }
 
 .east {
-    margin-left: 300px;
+    margin-left: 352px;
 }
 
 .west {
-    margin-left: 530px;
+    margin-left: 457px;
 }
