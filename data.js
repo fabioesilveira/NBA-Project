@@ -82,7 +82,7 @@ export const easternConference = [
             nbaTitles: 0,
             championshipsWon: 0
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Brooklyn - New York"
     },
     {
         id: 8,
@@ -94,7 +94,7 @@ export const easternConference = [
             nbaTitles: 3,
             championshipsWon: [1989, 1990, 2004]
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Detroit - Michigan"
     },
     {
         id: 9,
@@ -106,7 +106,7 @@ export const easternConference = [
             nbaTitles: 1,
             championshipsWon: 2019
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Toronto - Canada"
     },
     {
         id: 10,
@@ -118,7 +118,7 @@ export const easternConference = [
             nbaTitles: 2,
             championshipsWon: [1970, 1973]
         },
-        based: "Milwaukee - Wisconsin"
+        based: "New York - New York"
     },
     {
         id: 11,
@@ -130,7 +130,7 @@ export const easternConference = [
             nbaTitles: 0,
             championshipsWon: 0
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Indianapolis - Indiana"
     },
     {
         id: 12,
@@ -142,7 +142,7 @@ export const easternConference = [
             nbaTitles: 1,
             championshipsWon: 1958
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Atlanta - Georgia"
     },
     {
         id: 13,
@@ -154,7 +154,7 @@ export const easternConference = [
             nbaTitles: 0,
             championshipsWon: 0
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Charlotte - North Carolina"
     },
     {
         id: 14,
@@ -166,7 +166,7 @@ export const easternConference = [
             nbaTitles: 0,
             championshipsWon: 0
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Orlando - Florida"
     },
     {
         id: 15,
@@ -178,7 +178,7 @@ export const easternConference = [
             nbaTitles: 1,
             championshipsWon: 1978
         },
-        based: "Milwaukee - Wisconsin"
+        based: "Washington - D.C"
     }
 
 ];
@@ -237,7 +237,7 @@ export const westernConference = [
         id: 20,
         team: "Grizzlies",
         url: "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
-        currentlyPlayers: ["T.Jemison", "V.Williams Jr.", "Z.Williams", "GG.Jackson II", "L.Stevens", "J.Goodwin", "S.Aldama", "J.Gilyard"],
+        currentlyPlayers: [ "Z. Williams-8", "J. Jackson Jr.-13", "J. Goodwin-0", "D. Bane-22", "J. Morant-12"],
         stadium: "FedExForum",
         titles: {
             nbaTitles: 0,
@@ -249,7 +249,7 @@ export const westernConference = [
         id: 21,
         team: "Clippers",
         url: "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["P. George-13", "J. Harden-1", "N. Powell-24", "T. Mann-14", "K. Leonard-2"],
         stadium: "Crypto.com Arena",
         titles: {
             nbaTitles: 0,
@@ -261,97 +261,97 @@ export const westernConference = [
         id: 22,
         team: "Timberwolves",
         url: "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["M. Conley-10", "A. Edwards-5", "J. McDaniels-3", "K. Towns-32", "R. Gobert-27"],
         stadium: "Target Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
         },
-        based: "Los Angeles - California"
+        based: "Minneapolis - Minnesota"
     },
     {
         id: 23,
         team: "Thunder",
         url: "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["S. Gilgeous-Alexander-2", "J. Giddey-3", "L. Dort-5", "G.Hayward-20", "C. Holmgren-7"],
         stadium: "Playcom Center",
         titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
+            nbaTitles: 1,
+            championshipsWon: 1979,
         },
-        based: "Los Angeles - California"
+        based: "Oklahoma City - Oklahoma"
     },
     {
         id: 24,
         team: "Trail Blazers",
         url: "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["A. Simons-1", "T. Camara-33", "J. Grant-9", "D. Ayton-2", "R. W. III-35" ],
         stadium: "Moda Center",
         titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
+            nbaTitles: 1,
+            championshipsWon: 1977,
         },
-        based: "Los Angeles - California"
+        based: "Portland - Oregon"
     },
     {
         id: 25,
         team: "Jazz",
         url: "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["K. George-3", "C. Sexton-2", "L. Markkanen-23", "T. Hendricks-0", "J. Collins-20"],
         stadium: "Delta Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
         },
-        based: "Los Angeles - California"
+        based: "Salt Lake City - Utah"
     },
     {
         id: 26,
         team: "Suns",
         url: "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["D. Booker-1", "B. Beal-3", "G. Allen-8", "K. Durant-35", "J. Nurkic-20"],
         stadium: "Footprint Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
         },
-        based: "Los Angeles - California"
+        based: "Phoenix - Arizona"
     },
     {
         id: 27,
         team: "Kings",
         url: "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["D. Mitchell-15", "K. Huerter-9", "H. Barnes-40", "K. Murray-13", "D. Sabonis-10"],
         stadium: "Golden 1 Center",
         titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
+            nbaTitles: 1,
+            championshipsWon: 1951,
         },
-        based: "Los Angeles - California"
+        based: "Sacramento - California"
     },
     {
         id: 28,
         team: "Rockets",
         url: "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["F. VanVleet-5", "J. Green-4", "D. Brooks-9", "J. Smith Jr.-10", "A. Sengun-28"],
         stadium: "Toyota Center",
         titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
+            nbaTitles: 2,
+            championshipsWon: [1994, 1995],
         },
-        based: "Los Angeles - California"
+        based: "Houston - Texas"
     },
     {
         id: 29,
         team: "Pelicans",
         url: "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
-        currentlyPlayers: ["P.George", "A.Coffey", "M.Plumlee", "J.Harden", "N.Powell", "R.Westbrook", "I.Zubac", "T.Mann"],
+        currentlyPlayers: ["C. McCollum-3", "H. Jones-5", "B. Ingram-14", "Z. Williamson-1", "J. Valanciunas-17"],
         stadium: "Smoothie King Center",
         titles: {
             nbaTitles: 0,
             championshipsWon: 0,
         },
-        based: "Los Angeles - California"
+        based: "New Orleans - Louisiana"
     },
     {
         id: 30,
@@ -360,10 +360,10 @@ export const westernConference = [
         currentlyPlayers: ["K.Johnson-3","T.Jones-33","J.Sochan-10","V.Wembanyama-1","D.Vassell-24"],
         stadium: "Frost Bank Center",
         titles: {
-            nbaTitles: 0,
-            championshipsWon: 0,
+            nbaTitles: 5,
+            championshipsWon: [1999, 2003, 2005, 2007, 2014],
         },
-        based: "Los Angeles - California"
+        based: "San Antonio - Texas"
     }
     
 ];
