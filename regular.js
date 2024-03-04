@@ -7,7 +7,7 @@ const tableWestern = document.getElementById("tableWestern")
 easternRegularSeason.map(element => tableEastern.innerHTML += `
     <tr>
         <td>${element.id}</td>
-        <td>${element.team}</td>
+        <td><img class="easternConference2" src="${element.url}">${element.team}</td>
         <td>${element.w}</td>
         <td>${element.l}</td>
     </tr>
@@ -16,7 +16,7 @@ easternRegularSeason.map(element => tableEastern.innerHTML += `
 westernRegularSeason.map(element => tableWestern.innerHTML += `
     <tr>
         <td>${element.id}</td>
-        <td>${element.team}</td>
+        <td><img class = "westernConference2" src="${element.url}">${element.team}</td>
         <td>${element.w}</td>
         <td>${element.l}</td>
     </tr>
