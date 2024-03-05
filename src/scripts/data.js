@@ -367,3 +367,12 @@ export const westernConference = [
     }
     
 ];
+
+const championships = [
+
+    {
+        team: "Celtics",
+        championships: 17,
+        emojis: "🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
+    }
+]
