@@ -393,13 +393,13 @@ export const championships = [
         url: "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
         team: "Bulls",
         championships: "6x",
-        emojis: "🏆🏆🏆🏆🏆🏆🏆"
+        emojis: "🏆🏆🏆🏆🏆🏆"
     },
     {
         url: "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
         team: "Spurs",
         championships: "5x",
-        emojis: "🏆🏆🏆🏆🏆🏆🏆"
+        emojis: "🏆🏆🏆🏆🏆"
     },
     {
         url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
@@ -491,4 +491,5 @@ export const championships = [
         championships: "1x",
         emojis: "🏆"
     },
+    
 ]

@@ -30,7 +30,7 @@ for (const element of westernConference) {
 
 for (const element of championships) {
     nbaTiers.innerHTML += `
-    <p><img class="westernConference3" src="${element.url}">${element.team} ${element.championships} ${element.emojis}</p>
+    <p class="fs-5"><img class="westernConference3" src="${element.url}">${element.team} ${element.championships} ${element.emojis}</p>
    
 
     `
