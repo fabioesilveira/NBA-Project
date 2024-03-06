@@ -69,12 +69,17 @@
     width: 33px;
 }
 
+.westernConference3 {
+    width: 33px;
+}
+
 .div-ranking {
     margin-top: 50px;
     font-family: "Rubik Distressed", system-ui;
     color: rgb(36, 36, 142);
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .time {

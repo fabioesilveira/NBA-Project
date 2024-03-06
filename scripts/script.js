@@ -1,8 +1,9 @@
-import { easternConference, westernConference } from "./data.js"
+import { easternConference, westernConference, championships } from "./data.js"
 
 const westernTeams = document.getElementById("westernTeams")
 const easternTeams = document.getElementById("easternTeams")
 const searchNav = document.getElementById("search-nav")
+const nbaTiers = document.getElementById("tiers")
 
 for (const element of easternConference) {
    easternTeams.innerHTML += `
@@ -26,6 +27,16 @@ for (const element of westernConference) {
     `
     
 };
+
+for (const element of championships) {
+    nbaTiers.innerHTML += `
+    <p><img class="westernConference3" src="${element.url}">${element.team} ${element.championships} ${element.emojis}</p>
+   
+
+    `
+    
+}
+
 
 var today = dayjs();
 $('#weekDay').text(today.format('MMMM D'));
