@@ -16,7 +16,7 @@ export const easternConference = [
         id: 2,
         team: "Celtics",
         url: "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        currentlyPlayers: ["J. Holiday-4","D. WHite-9","J. Brown-7","J. Tatum-0","K. Porzingis-8"],
+        currentlyPlayers: ["J. Holiday-4","D. White-9","J. Brown-7","J. Tatum-0","K. Porzingis-8"],
         stadium: "TD Garden",
         titles: {
             nbaTitles: 17,
@@ -371,125 +371,54 @@ export const westernConference = [
 export const championships = [
 
     {
-        url: "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        team: "Celtics",
+        url: ["https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"],
+        team: ["Celtics"],
         championships: "17x",
         emojis: "🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
-        team: "Lakers",
+        url:["https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"],
+        team: ["Lakers"],
         championships: "17x",
         emojis: "🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
     },
 
     {
-        url: "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
-        team: "Warriors",
+        url: ["https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"],
+        team: ["Warriors"],
         championships: "7x",
         emojis: "🏆🏆🏆🏆🏆🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        team: "Bulls",
+        url: ["https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"],
+        team: ["Bulls"],
         championships: "6x",
         emojis: "🏆🏆🏆🏆🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
-        team: "Spurs",
+        url: ["https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"],
+        team: ["Spurs"],
         championships: "5x",
         emojis: "🏆🏆🏆🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        team: "76ers",
+        url: ["https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"],
+        team: ["76ers", "Pistons", "Heat"],
         championships: "3x",
         emojis: "🏆🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        team: "Pistons",
-        championships: "3x",
-        emojis: "🏆🏆🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
-        team: "Heat",
-        championships: "3x",
-        emojis: "🏆🏆🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
-        team: "Rockets",
+        url: ["https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"],
+        team: ["Rockets", "Knicks", "Bucks"],
         championships: "2x",
         emojis: "🏆🏆"
     },
     {
-        url: "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        team: "Knicks",
-        championships: "2x",
-        emojis: "🏆🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        team: "Bucks",
-        championships: "2x",
-        emojis: "🏆🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
-        team: "Cavaliers",
+        url: ["https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",],
+        team: ["Cavaliers", "Hawks", "Wizards", "Thunder", "TrailBlazers", "Mavericks", "Kings", "Raptors", "Nuggets"],
         championships: "1x",
         emojis: "🏆"
     },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
-        team: "Hawks",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        team: "Wizards",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
-        team: "Thunder",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
-        team: "TrailBlazers",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
-        team: "Mavericks",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
-        team: "Kings",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
-        team: "Raptors",
-        championships: "1x",
-        emojis: "🏆"
-    },
-    {
-        url: "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
-        team: "Nuggets",
-        championships: "1x",
-        emojis: "🏆"
-    },
+    
     
 ]

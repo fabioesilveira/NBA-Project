@@ -30,7 +30,18 @@ for (const element of westernConference) {
 
 for (const element of championships) {
     nbaTiers.innerHTML += `
-    <p class="fs-5"><img class="westernConference3" src="${element.url}">${element.team} ${element.championships} ${element.emojis}</p>
+     
+     <div class="fs-4 d-flex gap-1">
+       ${
+        element.url.map((e,i) => `
+        <img class="westernConference3" src="${e}" >
+        <p>${element.team[i]}</p>
+        `).join(" ")
+       }
+       <p>
+       ${element.championships} <span>${element.emojis}</span>
+       </p>
+    </div>
    
 
     `
