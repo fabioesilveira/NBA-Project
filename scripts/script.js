@@ -38,7 +38,7 @@ for (const element of championships) {
         <p>${element.team[i]}</p>
         `).join(" ")
        }
-       <p>
+       <p class="fw-bold">
        ${element.championships} <span>${element.emojis}</span>
        </p>
     </div>
