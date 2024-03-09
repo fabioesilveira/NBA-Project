@@ -419,6 +419,12 @@ export const championships = [
         championships: "1x",
         emojis: "🏆"
     },
+    {
+        url: ["https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg", "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"],
+        team: ["Suns", "Jazz", "Nets", "Magic", "Pacers", "Grizzlies", "Pelicans","Hornets", "Clippers", "Timberwolves"],
+        championships: "0x",
+        emojis: "❌"
+    },
     
     
 ]

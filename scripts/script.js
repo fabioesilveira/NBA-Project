@@ -31,7 +31,7 @@ for (const element of westernConference) {
 for (const element of championships) {
     nbaTiers.innerHTML += `
      
-     <div class="fs-4 d-flex gap-1">
+     <div class="fs-5 d-flex gap-1">
        ${
         element.url.map((e,i) => `
         <img class="westernConference3" src="${e}" >
