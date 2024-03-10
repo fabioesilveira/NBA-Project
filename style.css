@@ -145,7 +145,6 @@
     color: rgb(201, 7, 7);
     font-weight: 400;
     font-style: normal;
-    
     text-align: center;
 
 }
@@ -153,4 +152,12 @@
 .h2-quiz {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.teams-stats {
+    font-family: "Rubik Distressed", system-ui;
+    color: rgb(201, 7, 7);
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
