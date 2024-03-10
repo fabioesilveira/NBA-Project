@@ -120,7 +120,7 @@
 }
 
 .img-history1 {
-    width: 1050px;
+    width: 1040px;
     height: 600px;
     margin-bottom: 290px;
 }
@@ -132,4 +132,25 @@
     margin-top: 20px;
 }
 
+.h4-history {
+    font-family: "Rubik Distressed", system-ui;
+}
 
+.div-history-PO {
+    margin-top: 20px;
+}
+
+.nba-quiz {
+    font-family: "Rubik Distressed", system-ui;
+    color: rgb(201, 7, 7);
+    font-weight: 400;
+    font-style: normal;
+    
+    text-align: center;
+
+}
+
+.h2-quiz {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
