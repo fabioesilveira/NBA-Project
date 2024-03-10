@@ -109,6 +109,27 @@
     margin-top: 40px;
 }
 
+.history-h1 {
+    font-family: "Rubik Distressed", system-ui;
+    color: rgb(201, 7, 7);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    
+}
 
+.img-history1 {
+    width: 1050px;
+    height: 600px;
+    margin-bottom: 290px;
+}
+
+.img-history2 {
+    width: 300px;
+    height: 900px;
+    margin-left: 205px;
+    margin-top: 20px;
+}
 
 
