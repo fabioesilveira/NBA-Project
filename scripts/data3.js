@@ -56,38 +56,38 @@ const questions = [
     },
 
     {
-        q: "Which operator is used to assign a value to a variable?",
-        a: [{ text: 'X', isCorrect: false },
-        { text: '-', isCorrect: false },
-        { text: '=', isCorrect: true },
-        { text: '&', isCorrect: false }
+        q: "Which is the only Canadian team at the league?",
+        a: [{ text: 'Magics', isCorrect: false },
+        { text: 'Heat', isCorrect: false },
+        { text: 'Raptors', isCorrect: true },
+        { text: 'Pistons', isCorrect: false }
         ]
     },
 
     {
-        q: "How can you add a comment in a JavaScript?",
-        a: [{ text: '<!--This is a comment-->', isCorrect: false },
-        { text: '"This is a comment"', isCorrect: false },
-        { text: '*This is a comment*', isCorrect: false },
-        { text: '//This is a comment', isCorrect: true }
+        q: "How many teams haven't won any NBA championships",
+        a: [{ text: '14', isCorrect: false },
+        { text: '9', isCorrect: false },
+        { text: '7', isCorrect: false },
+        { text: '10', isCorrect: true }
         ]
     },
 
     {
-        q: "How do you declare a JavaScript variable?",
-        a: [{ text: 'var studentName;', isCorrect: true },
-        { text: 'v studentName;', isCorrect: false },
-        { text: 'variable studentName;', isCorrect: false },
-        { text: 'var <studentName>;', isCorrect: false }
+        q: "Which is the most popular all time player for NBA",
+        a: [{ text: 'Michael Jordan', isCorrect: true },
+        { text: 'Lebron James', isCorrect: false },
+        { text: 'Larry Bird', isCorrect: false },
+        { text: 'Shaquille O Neal', isCorrect: false }
         ]
     },
 
     {
-        q: "What will the following code return: Boolean(10 > 9)",
-        a: [{ text: 'NaN', isCorrect: false },
-        { text: 'false', isCorrect: false },
-        { text: 'true', isCorrect: true },
-        { text: 'Undefined', isCorrect: false }
+        q: "The winner of the NBA Finals receives:",
+        a: [{ text: 'Larry Bird Championship Trophy', isCorrect: false },
+        { text: 'Michael Jordan Championship Trophy', isCorrect: false },
+        { text: 'Larry O Brien Championship Trophy', isCorrect: true },
+        { text: 'Kobe Brynt Championship Trophy', isCorrect: false }
         ]
     },
 
