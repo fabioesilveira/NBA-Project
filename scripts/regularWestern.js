@@ -1,3 +1,4 @@
+import { createCalendar } from "./createCalendar.js";
 import { easternRegularSeason, westernRegularSeason } from "./data2.js";
 
 const tableWestern = document.getElementById("tableWestern")
@@ -14,17 +15,7 @@ function createTable(array, table) {
 }
 
 createTable(westernRegularSeason, tableWestern);
-
-
-
-// DayJS
-var today = dayjs();
-$('#weekDay').text(today.format('MMMM D'));
-
-var dayWeek = today.format('dddd,');
-$('#currentDay').text(dayWeek);
-
-var today = dayjs();
+createCalendar();
 
 
 searchNav.addEventListener("click", () => alert("Estou aqui"))
