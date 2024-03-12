@@ -93,16 +93,16 @@
 }
 
 .conference-tiers {
-    width: 550px;
+    width: 450px;
 }
 
 .conference-numbers {
     display: flex;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .p-tiers {
-    margin-left: 185px;
+    margin-left: 133px;
 }
 
 .footer-home {
