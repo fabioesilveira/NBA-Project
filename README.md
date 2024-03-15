@@ -1,6 +1,6 @@
 # NBA-Project
 
-## in class TODO: Search bar, Quiz, NBA Legends, Teams stats with Chart.js, function to change Teams position Based on Wins, Script 1 replace 2 FOR for FUNCTION.
+## in class TODO: Search bar, Quiz, NBA Legends, Teams stats with Chart.js, function to change Teams position Based on Wins
 
 ## TODO HOMEWORK NBA legends DATA BASE, TEAMS STATS WITH LOGO BUTTON FOR CHART.JS 
 
