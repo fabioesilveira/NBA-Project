@@ -6,8 +6,11 @@ const tableEastern = document.getElementById("tableEastern")
 
 
 
-createTable(easternRegularSeason, tableEastern);
-createCalendar();
 
+
+window.addEventListener("load", () => {
+    createTable(easternRegularSeason, tableEastern);
+    createCalendar();
+});
 
 searchNav.addEventListener("click", () => alert("Estou aqui"))
