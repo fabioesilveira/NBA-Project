@@ -25,7 +25,7 @@ function searchTeam(event) {
         westernTeams.innerHTML = ""
     }
     else {
-        alert("We couldn't find anything, try again")
+        alert("We couldn't find anything, please try again")
     }
    
     

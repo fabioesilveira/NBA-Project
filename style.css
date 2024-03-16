@@ -6,12 +6,22 @@
 
 .easternConference {
     width: 85px;
-    margin-left: 294px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 85px;
+    
 }
 
 .westernConference {
     width: 85px;
-    margin-left: 209px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 85px;
+    
 }
 
 .h1 {
@@ -198,4 +208,13 @@
 .stadium-block {
     
     display: inline-block;
+}
+
+.popularity-teams {
+    font-family: "Rubik Distressed", system-ui;
+    
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 465px;
+    margin-top: 10px;
 }
