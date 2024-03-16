@@ -5,13 +5,13 @@
 }
 
 .easternConference {
-    width: 70px;
-    margin-left: 333px;
+    width: 85px;
+    margin-left: 294px;
 }
 
 .westernConference {
-    width: 70px;
-    margin-left: 333px;
+    width: 85px;
+    margin-left: 209px;
 }
 
 .h1 {
@@ -35,11 +35,11 @@
 }
 
 .east {
-    margin-left: 385px;
+    margin-left: 410px;
 }
 
 .west {
-    margin-left: 485px;
+    margin-left: 410px;
 }
 
 .div-eastern {
@@ -193,4 +193,9 @@
     font-size: 80px;
     text-align: center;
 
+}
+
+.stadium-block {
+    
+    display: inline-block;
 }
