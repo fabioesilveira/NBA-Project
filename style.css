@@ -224,4 +224,9 @@
     margin-right: auto;
     width: 50%;
     width: 500px;
+    margin-top: 20px;
+}
+
+.legends {
+    margin-bottom: 20px;
 }

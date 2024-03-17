@@ -95,8 +95,8 @@ export const nbaLegends = [
         url: "https://img.buzzfeed.com/buzzfeed-static/images/ZmxfbG9zc3kscV9hdXRv/bqnmuwftinn5jjgqkl94/best-nba-players-ever.jpeg.jpeg?downsize=700:*&output-format=auto&output-quality=auto",
         biography: "Dr. J was everyone’s Michael Jordan before Michael Jordan. The NBA merged with the ABA in ‘76 because of the Doctor (there were a bunch of other great players too like George Gervin) and he continued to take another league by storm after winning two chips with the Nets in the ABA. He helped the Sixers make the Finals during his first season in the modern NBA, but lost to Bill Walton’s Blazers in six games. Dr. J floated through the air as his lanky limbs cut to the rim and his hair blew in the wind. I can only imagine how that shit looked back in those days. It was probably like watching an alien. Sometimes I watch his reverse layup during the fourth quarter of Game 4 of the 1980 Finals against the Lakers and try to figure out how the hell he was able to stay in the air that long. And he’s not all style and flair either. Erving’s career numbers are just as impressive as his plays. He averaged 24.2 PPG, 8.5 RPG, 4.2 APG, 2.0 SPG, and 1.7 BPG. He also made 11 NBA All-Star teams, won three MVP awards across the NBA and ABA, and made the 75th anniversary team. Dr. J is the godfather of the modern NBA. —AD",
         championshipsWon: {
-            times: 0,
-            years: [0]
+            times:1,
+            years: [1983]
         }
     },
 

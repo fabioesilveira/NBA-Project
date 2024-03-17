@@ -12,6 +12,10 @@ function createNbaLegends(array, div) {
      <img class = "legends-img" src="${element.url}">
      <h3>${element.name} ⭐</h3>
      <p>${element.biography}</p>
+     <h4>Championships Won</h4>
+     <p>${element.championshipsWon.times}</p>
+     <h5>Years</h5>
+     <p>${element.championshipsWon.years}</p>
     `)
     
 }
