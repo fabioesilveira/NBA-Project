@@ -6,7 +6,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 6,
             years: [1991, 1992, 1993, 1996, 1997, 1998]
-        }
+        },
+        teamsPlayedfor: ["Chigago Bulls", "Washington Wizards"],
     },
 
     {
@@ -16,7 +17,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 3,
             years: [1981, 1984, 1986]
-        }
+        },
+        teamsPlayedfor: ["Boston Celtics"]
     },
 
     {
@@ -26,7 +28,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 6,
             years: [1971, 1980, 1982, 1985, 1987, 1988]
-        }
+        },
+        teamsPlayedfor: ["Los Angeles Lakers", "Milwaukee Bucks"]
     },
 
     {
@@ -36,7 +39,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 5,
             years: [1980, 1982, 1985, 1987, 1988]
-        }
+        },
+        teamsPlayedfor: ["Los Angeles Lakers"]
     },
 
     {
@@ -46,7 +50,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 5,
             years: [2000, 2001, 2002, 2009, 2010]
-        }
+        },
+        teamsPlayedfor: ["Los Angeles Lakers"]
 
     },
 
@@ -57,7 +62,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 4,
             years: [2000, 2001, 2002, 2006]
-        }
+        },
+        teamsPlayedfor: ["Orlando Magic", "Los Angeles Lakers", "Miami Heat", "Phoenix Suns", "Cleveland Cavaliers", "Boston Celtics"]
     },
 
     {
@@ -67,7 +73,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 2,
             years: [1967, 1972]
-        }
+        },
+        teamsPlayedfor: ["Philadelphia 76ers", "Los Angeles Lakers"]
     },
 
     {
@@ -77,7 +84,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 5,
             years: [1999, 2003, 2005, 2007, 2014]
-        }
+        },
+        teamsPlayedfor: ["San Antonio Spurs"]
     },
 
     {
@@ -87,7 +95,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 0,
             years: [0]
-        }
+        },
+        teamsPlayedfor: ["Utah Jazz", "Los Angeles Lakers"]
     },
 
     {
@@ -97,7 +106,8 @@ export const nbaLegends = [
         championshipsWon: {
             times:1,
             years: [1983]
-        }
+        },
+        teamsPlayedfor: ["New York Nets", "Philadelphia 76ers"]
     },
 
     {
@@ -107,7 +117,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 11,
             years: [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969]
-        }
+        },
+        teamsPlayedfor: ["Boston Celtics", "Seattle SuperSonics", "Sacramento Kings"]
     },
 
     {
@@ -117,7 +128,8 @@ export const nbaLegends = [
         championshipsWon: {
             times: 6,
             years: [1991, 1992, 1993, 1996, 1997, 1998]
-        }
+        },
+        teamsPlayedfor: ["Houston Rockets", "Portland Trail Blazers", "Chicago Bulls"]
 
     }
 ]
