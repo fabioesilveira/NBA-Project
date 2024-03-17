@@ -15,7 +15,7 @@ export const nbaLegends = [
         biography: "Boston’s had more than its fair share of Hall of Famers roll through the old Boston Garden, but nobody was as lethal a scorer or as clutch at the end of games like Larry Legend. A three-time champion who won three consecutive MVPs in the mid-80s, and obviously made the NBA’s 75th anniversary team, Bird knocked down daggers like it was nothing and loved ripping out the hearts of his rivals while talking some of the most underrated trash. One of the greatest What Ifs in NBA history revolves around Bird’s back that he infamously injured while paving his mother’s driveway during the summer of 1985. If Bird wasn’t Mr. DIY, it’s staggering to think what else he could’ve done since he was never quite the same after that and horribly hobbled his final few years in the league. But it didn’t stop him from averaging 24.3 PPG and 10.0 RPG for his 13 seasons. Bird filled up a box score but he was never strictly a numbers guy—he was just a winner who made ridiculous passes, had a knack for seeing everything unfold seconds before anyone else on the court, and always made the key play that either sealed the deal or keyed a game-defining run. That’s why even though he could barely get loose enough to play at the end of his final season, Bird was one of the most celebrated members of the legendary Dream Team. There was no way the greatest basketball squad ever assembled could leave off the greatest small forward the game had ever known at that point. Bird’s been supplanted by someone else on that mythical list, but the Hick from French Lick is forever a Legend. —AC",
         championshipsWon: {
             times: 3,
-            years: [981, 1984, 1986]
+            years: [1981, 1984, 1986]
         }
     },
 
