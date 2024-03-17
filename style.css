@@ -15,7 +15,6 @@
 }
 
 .westernConference {
-    width: 85px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -217,4 +216,12 @@
     font-style: normal;
     margin-left: 465px;
     margin-top: 10px;
+}
+
+.legends-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 500px;
 }
