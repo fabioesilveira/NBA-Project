@@ -1,4 +1,4 @@
-const nbaLegends = [
+export const nbaLegends = [
     {
         name: "Michael Jordan",
         url: "https://img.buzzfeed.com/buzzfeed-static/images/ZmxfbG9zc3kscV9hdXRv/hlm3c8zsmabyea3alpzz/best-nba-players-ever.jpeg.jpeg?downsize=700:*&output-format=auto&output-quality=auto"
