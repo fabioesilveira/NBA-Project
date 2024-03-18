@@ -1,6 +1,6 @@
 # NBA-Project
 
-## in class TODO:  Quiz, NBA Legends, Teams stats with Chart.js, function to change Teams position Based on Wins
+## in class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on Wins.
 
 ## TODO HOMEWORK 
 
