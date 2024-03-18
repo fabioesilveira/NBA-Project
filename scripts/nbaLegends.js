@@ -16,8 +16,10 @@ function createNbaLegends(array, div) {
      <p class="fw-bold">${element.championshipsWon.times}</p>
      <h5 class="text-primary fw-bold">Years Won  📅</h5>
      <p>${element.championshipsWon.years.map(e => " " + e)}</p>
-     <h4 class="text-danger fw-bold">Teams Played for</h4>
+     <h4 class="text-danger fw-bold">Teams Played for ⛹️</h4>
      <p class="fw-bold">${element.teamsPlayedfor.map(e => " " + e)}</p>
+     <h4 class="text-primary fw-bold">Career End 🏀</h4>
+     <p class="fw-bold">${element.careerEnd}</p>
     `)
     
 }

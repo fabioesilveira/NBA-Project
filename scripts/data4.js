@@ -8,6 +8,7 @@ export const nbaLegends = [
             years: [1991, 1992, 1993, 1996, 1997, 1998]
         },
         teamsPlayedfor: ["Chigago Bulls", "Washington Wizards"],
+        careerEnd: "2003"
     },
 
     {
@@ -18,7 +19,8 @@ export const nbaLegends = [
             times: 3,
             years: [1981, 1984, 1986]
         },
-        teamsPlayedfor: ["Boston Celtics"]
+        teamsPlayedfor: ["Boston Celtics"],
+        careerEnd: "1992"
     },
 
     {
@@ -29,7 +31,8 @@ export const nbaLegends = [
             times: 6,
             years: [1971, 1980, 1982, 1985, 1987, 1988]
         },
-        teamsPlayedfor: ["Los Angeles Lakers", "Milwaukee Bucks"]
+        teamsPlayedfor: ["Los Angeles Lakers", "Milwaukee Bucks"],
+        careerEnd: "1989"
     },
 
     {
@@ -40,7 +43,8 @@ export const nbaLegends = [
             times: 5,
             years: [1980, 1982, 1985, 1987, 1988]
         },
-        teamsPlayedfor: ["Los Angeles Lakers"]
+        teamsPlayedfor: ["Los Angeles Lakers"],
+        careerEnd: "1996"
     },
 
     {
@@ -51,7 +55,8 @@ export const nbaLegends = [
             times: 5,
             years: [2000, 2001, 2002, 2009, 2010]
         },
-        teamsPlayedfor: ["Los Angeles Lakers"]
+        teamsPlayedfor: ["Los Angeles Lakers"],
+        careerEnd: "2016"
 
     },
 
@@ -63,7 +68,8 @@ export const nbaLegends = [
             times: 4,
             years: [2000, 2001, 2002, 2006]
         },
-        teamsPlayedfor: ["Orlando Magic", "Los Angeles Lakers", "Miami Heat", "Phoenix Suns", "Cleveland Cavaliers", "Boston Celtics"]
+        teamsPlayedfor: ["Orlando Magic", "Los Angeles Lakers", "Miami Heat", "Phoenix Suns", "Cleveland Cavaliers", "Boston Celtics"],
+        careerEnd: "2011"
     },
 
     {
@@ -74,7 +80,8 @@ export const nbaLegends = [
             times: 2,
             years: [1967, 1972]
         },
-        teamsPlayedfor: ["Philadelphia 76ers", "Los Angeles Lakers"]
+        teamsPlayedfor: ["Philadelphia 76ers", "Los Angeles Lakers"],
+        careerEnd: "1973"
     },
 
     {
@@ -85,7 +92,8 @@ export const nbaLegends = [
             times: 5,
             years: [1999, 2003, 2005, 2007, 2014]
         },
-        teamsPlayedfor: ["San Antonio Spurs"]
+        teamsPlayedfor: ["San Antonio Spurs"],
+        careerEnd: "2016"
     },
 
     {
@@ -96,7 +104,8 @@ export const nbaLegends = [
             times: 0,
             years: [0]
         },
-        teamsPlayedfor: ["Utah Jazz", "Los Angeles Lakers"]
+        teamsPlayedfor: ["Utah Jazz", "Los Angeles Lakers"],
+        careerEnd: "2005"
     },
 
     {
@@ -107,7 +116,8 @@ export const nbaLegends = [
             times:1,
             years: [1983]
         },
-        teamsPlayedfor: ["New York Nets", "Philadelphia 76ers"]
+        teamsPlayedfor: ["New York Nets", "Philadelphia 76ers"],
+        careerEnd: "1987"
     },
 
     {
@@ -118,7 +128,8 @@ export const nbaLegends = [
             times: 11,
             years: [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969]
         },
-        teamsPlayedfor: ["Boston Celtics", "Seattle SuperSonics", "Sacramento Kings"]
+        teamsPlayedfor: ["Boston Celtics", "Seattle SuperSonics", "Sacramento Kings"],
+        careerEnd: "1969"
     },
 
     {
@@ -129,7 +140,8 @@ export const nbaLegends = [
             times: 6,
             years: [1991, 1992, 1993, 1996, 1997, 1998]
         },
-        teamsPlayedfor: ["Houston Rockets", "Portland Trail Blazers", "Chicago Bulls"]
+        teamsPlayedfor: ["Houston Rockets", "Portland Trail Blazers", "Chicago Bulls"],
+        careerEnd: "2004"
 
     }
 ]
