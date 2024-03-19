@@ -25,10 +25,12 @@ Project By Fabio Silveira and Alberto Couto.
 
 ![Screenshot of Deployed Website](/assets/images/deployed4.png)
 
+![Screenshot of Deployed Website](/assets/images/deployed5.png)
+
 [Live Demo Link](https://nba-project-2024.netlify.app/)
 
 # Undone
 
-## In class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on Wins.
+## In class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on their wins.
 
 ## Homework TODO: 
