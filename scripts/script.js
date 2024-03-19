@@ -12,7 +12,6 @@ const searchTeamInput = document.getElementById("searchTeam")
 const searchedTeam = document.getElementById("div-search")
 
 
-
 function searchTeam(event) {
     event.preventDefault()
     const value = searchTeamInput.value
@@ -28,8 +27,6 @@ function searchTeam(event) {
         alert("We couldn't find anything, please try again")
     }
    
-    
-
 };
 
 window.addEventListener("load", () => {
