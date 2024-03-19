@@ -31,6 +31,6 @@ Project By Fabio Silveira and Alberto Couto.
 
 # Undone
 
-## In class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on their wins.
+## In class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on their wins. Media queries review,
 
-## Homework TODO: 
+## Homework TODO: Change the data base adding the array of urls with same amout of teams for each one, and add it to Legends Page.
