@@ -5,9 +5,6 @@ import { easternRegularSeason, westernRegularSeason } from "./data2.js";
 const tableEastern = document.getElementById("tableEastern")
 
 
-
-
-
 window.addEventListener("load", () => {
     createTable(easternRegularSeason, tableEastern);
     createCalendar();
