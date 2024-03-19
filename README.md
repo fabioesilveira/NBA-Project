@@ -9,11 +9,11 @@ The National Basketball Association (NBA) is a professional basketball league in
 
 ## Technologies used
 
-Bootstrap for framework and design, Wikipedia and other sites to create data, Chart.js.
+Bootstrap for framework and design, Chart.js.
 
 ## Credits
 
-Project By Fabio Silveira and Alberto Couto
+Project By Fabio Silveira and Alberto Couto.
 
 ## Deployed Site
 
@@ -23,14 +23,12 @@ Project By Fabio Silveira and Alberto Couto
 
 ![Screenshot of Deployed Website](/assets/images/deployed3.png)
 
+![Screenshot of Deployed Website](/assets/images/deployed4.png)
+
 [Live Demo Link](https://nba-project-2024.netlify.app/)
 
 # Undone
 
-## in class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on Wins.
+## In class TODO:  Quiz w/ local storage, Legends Search, Teams stats with Chart.js, function to change Teams position Based on Wins.
 
-## TODO HOMEWORK 
-
-## Reference 
-
-[Live Demo Link](https://nba-project-2024.netlify.app/)
+## Homework TODO: 
