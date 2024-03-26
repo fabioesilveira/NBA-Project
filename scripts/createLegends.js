@@ -1,6 +1,6 @@
 export function createNbaLegends(array, div) {
     array.map(element => div.innerHTML += `
-     <img class = "legends-img" src="${element.url}">
+     <img class="legends-img" src="${element.url}">
      <h2 class="legends-name">${element.name} ⭐</h2>
      <p>${element.biography}</p>
      <h4 class="text-primary fw-bold">Championships Won 🏆</h4>

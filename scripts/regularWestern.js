@@ -1,13 +1,21 @@
 import { createCalendar } from "./createCalendar.js";
 import { createTable } from "./createTable.js";
-import { easternRegularSeason, westernRegularSeason } from "./data2.js";
+import { westernRegularSeason } from "./data2.js";
 
 const tableWestern = document.getElementById("tableWestern")
+var dataWestern = localStorage.getItem("dataWestern");
 
+function app() {
+    if(!dataWestern){
+        localStorage.setItem("dataWestern", JSON.stringify(westernRegularSeason))
+    }
 
-window.addEventListener("load", () => {
-    createTable(westernRegularSeason, tableWestern);
+    const data = JSON.parse(localStorage.getItem("dataWestern"));
+
+    createTable(data, tableWestern);
     createCalendar();
-});
+}
 
-searchNav.addEventListener("click", () => alert("Estou aqui"))
+
+window.addEventListener("load", () => app());
+

@@ -1,13 +1,21 @@
 import { createCalendar } from "./createCalendar.js";
 import { createTable } from "./createTable.js";
-import { easternRegularSeason, westernRegularSeason } from "./data2.js";
+import { easternRegularSeason } from "./data2.js";
 
 const tableEastern = document.getElementById("tableEastern")
+var dataEastern = localStorage.getItem("dataEastern")
 
+function app() {
+    if(!dataEastern) {
+        localStorage.setItem("dataEastern", JSON.stringify(easternRegularSeason))
+    }
 
-window.addEventListener("load", () => {
-    createTable(easternRegularSeason, tableEastern);
+    const data = JSON.parse(localStorage.getItem("dataEastern"))
+
+    createTable(data, tableEastern);
     createCalendar();
-});
+}
 
-searchNav.addEventListener("click", () => alert("Estou aqui"))
+
+window.addEventListener("load", app());
+
