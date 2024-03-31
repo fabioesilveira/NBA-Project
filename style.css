@@ -261,15 +261,24 @@
 .options {
     display: flex;
     justify-content: center;
+    font-size: 17px;
+    gap: 6px;
     
-
-}
-
-.options2 {
-    display: flex;
-    justify-content: center;
 }
 
 .user {
     margin-left: 400px;
+}
+
+.div-standings-e {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.div-update-e {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 17px;
 }
