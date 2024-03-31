@@ -252,3 +252,23 @@
 .legends-icon2 {
     width: 20px;
 }
+
+.question-history {
+    margin-top: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.options2 {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    margin-left: 400px;
+}

@@ -13,11 +13,11 @@ btnQuiz.addEventListener("click", () => {
     var answer = false; 
     
     divQuiz.innerHTML = `
-        <h3>${questions[1].q}</h3>
-        <div>
+        <h3 class="d-flex justify-content-center question-history">${questions[1].q}</h3>
+        <div class="panel">
         ${questions[1].a.map((e, i) => `
-            <input type="radio" id="question${i}" name="questions" value="${e.isCorrect}">
-            <label for="question${i}">${e.text}</label><br>   
+            <input  type="radio" id="question${i}" name="questions" value="${e.isCorrect}">
+            <label  class="options" for="question${i}">${e.text}</label><br>   
         `).join("")}
         </div>
     `
