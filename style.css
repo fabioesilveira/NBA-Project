@@ -57,6 +57,7 @@
 }
 
 .div-eastern {
+    font-size: 40px;
     font-family: "Rubik Distressed", system-ui;
     color: rgb(36, 36, 142);
     display: flex;
