@@ -1,6 +1,6 @@
 export const questions = [
     {
-        q: "Which conference has won more nba championships?",
+        q: "Which conference has won more NBA championships so far?",
         a: [
             { text: 'Northern', isCorrect: false },
             { text: 'Southern Conference', isCorrect: false },
@@ -21,7 +21,7 @@ export const questions = [
 
     {
 
-        q: "How many teams the NBA is composed of?",
+        q: "How many teams is the NBA composed of?",
         a: [
             { text: '25', isCorrect: false },
             { text: '30', isCorrect: true },
@@ -52,7 +52,7 @@ export const questions = [
     },
 
     {
-        q: "Which of the following 2 teams are tied up for the most NBA championships with 17 each",
+        q: "Which of the following 2 teams is tied up for the most NBA championships, with 17 each?",
         a: [
             { text: 'Celtics, Warriors', isCorrect: false },
             { text: 'Lakers, Nets', isCorrect: false },
@@ -62,7 +62,7 @@ export const questions = [
     },
 
     {
-        q: "Which is the only Canadian team at the league?",
+        q: "Which is the only Canadian team in the league?",
         a: [
             { text: 'Magics', isCorrect: false },
             { text: 'Heat', isCorrect: false },
@@ -72,7 +72,7 @@ export const questions = [
     },
 
     {
-        q: "How many teams haven't won any NBA championships",
+        q: "How many teams haven't won any NBA championships so far?",
         a: [
             { text: '14', isCorrect: false },
             { text: '9', isCorrect: false },
@@ -82,7 +82,7 @@ export const questions = [
     },
 
     {
-        q: "Which is the most popular all time player for NBA",
+        q: "Which is the most popular all-time player in the NBA?",
         a: [
             { text: 'Michael Jordan', isCorrect: true },
             { text: 'Lebron James', isCorrect: false },
