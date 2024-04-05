@@ -4,6 +4,7 @@ import { questions } from "./data3.js";
 const btnQuiz = document.getElementById("btn-quiz")
 const divQuiz = document.getElementById("div-quiz")
 const btnQuestion = document.getElementById("btn-question")
+const divQuizP = document.getElementById("div-quiz-p")
 
 window.addEventListener("load", () => {
     createCalendar();
@@ -34,6 +35,7 @@ divQuiz.addEventListener("change", ({ target }) => {
 function handleQuiz() {
     btnQuestion.style.display="block"
     createQuiz(index)
+    divQuizP.style.display = "none"
     
 }
 
@@ -46,6 +48,19 @@ btnQuestion.addEventListener("click", () => {
     console.log("resultado:", answer)
     console.log("pontos:",score)
     index += 1
+
+    if (index + 1 > questions.length) {
+      divQuizP.style.display = "block"
+      divQuiz.style.display = "none"
+      btnQuestion.style.display = "none"
+
+      divQuizP.innerHTML = `
+      <p>Congratulations, You've scored ${score}</p>
+      <button class="btn btn-danger col-1 mx-auto mt-2 mb-2" onclick="window.location.reload()">Finish Quiz</button>
+      `
+
+         
+    }
     
     createQuiz(index)
 })
