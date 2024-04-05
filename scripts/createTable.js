@@ -5,6 +5,7 @@ export function createTable(array, table) {
         <td><img class="easternConference2" src="${element.url}">${element.team}</td>
         <td>${element.w}</td>
         <td>${element.l}</td>
+        <td>${element.g}</td>
     </tr>
 `) 
 }
