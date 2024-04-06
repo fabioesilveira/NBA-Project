@@ -1,7 +1,7 @@
-import { createCalendar } from "./createCalendar.js"
-import { createElement } from "./createElement.js"
-import { createTiers } from "./createTiers.js"
-import { easternConference, westernConference, championships } from "./data.js"
+import { createCalendar } from "./functions/createCalendar.js"
+import { createElement } from "./functions/createElement.js"
+import { createTiers } from "./functions/createTiers.js"
+import { easternConference, westernConference, championships } from "./data/data.js"
 
 const newData = [...easternConference, ...westernConference]
 const westernTeams = document.getElementById("westernTeams")

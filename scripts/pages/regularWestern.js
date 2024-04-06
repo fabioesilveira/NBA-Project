@@ -1,6 +1,6 @@
-import { createCalendar } from "./createCalendar.js";
-import { createTable } from "./createTable.js";
-import { westernRegularSeason } from "./data2.js";
+import { createCalendar } from "../functions/createCalendar.js";
+import { createTable } from "../functions/createTable.js";
+import { westernRegularSeason } from "../data/data2.js";
 
 const tableWestern = document.getElementById("tableWestern")
 var dataWestern = localStorage.getItem("dataWestern");

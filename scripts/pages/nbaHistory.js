@@ -1,5 +1,5 @@
-import { createCalendar } from "./createCalendar.js";
-import { questions } from "./data3.js";
+import { createCalendar } from "../functions/createCalendar.js";
+import { questions } from "../data/data3.js";
 
 const btnQuiz = document.getElementById("btn-quiz")
 const divQuiz = document.getElementById("div-quiz")
@@ -55,8 +55,8 @@ btnQuestion.addEventListener("click", () => {
       btnQuestion.style.display = "none"
 
       divQuizP.innerHTML = `
-      <p>Congratulations, You've scored ${score}</p>
-      <button class="btn btn-danger col-1 mx-auto mt-2 mb-2" onclick="window.location.reload()">Finish Quiz</button>
+      <p class="text-center fw-bold">Congratulations 🎉, You've scored ${score} points of 10.</p>
+      <button class="btn btn-danger col-1 mx-auto mt-2 mb-2 btn-finish" onclick="window.location.reload()">Finish Quiz</button>
       `
 
          

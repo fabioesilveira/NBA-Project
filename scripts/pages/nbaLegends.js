@@ -1,6 +1,6 @@
-import { createCalendar } from "./createCalendar.js";
-import { createNbaLegends } from "./createLegends.js";
-import { nbaLegends } from "./data4.js";
+import { createCalendar } from "../functions/createCalendar.js";
+import { createNbaLegends } from "../functions/createLegends.js";
+import { nbaLegends } from "../data/data4.js";
 
 
 const nbaLegendsStars = document.getElementById("nbaLegends")

@@ -283,3 +283,8 @@
     margin-top: 30px;
     margin-bottom: 17px;
 }
+
+.btn-finish {
+    display: flex;
+    justify-content: center;
+}
