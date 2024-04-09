@@ -288,3 +288,9 @@
     display: flex;
     justify-content: center;
 }
+
+.users-ranking-h4{
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik Distressed", system-ui;
+}
