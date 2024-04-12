@@ -80,6 +80,6 @@ btnQuestion.addEventListener("click", () => {
 
 const newDataRanking = JSON.parse(localStorage.getItem("data-ranking"))
 newDataRanking.map(element => (divRankingQuiz.innerHTML += `
-    <p>Name: ${element.userName} Score: ${element.score}</p>
+    <p>Name: ${element.userName}/ Score: ${element.score}</p>
     
 `))

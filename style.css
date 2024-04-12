@@ -294,3 +294,20 @@
     justify-content: center;
     font-family: "Rubik Distressed", system-ui;
 }
+
+.input-history{
+    
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.input-size{
+    width: 370px;
+    margin-left: 472px;
+}
+
+.label-history{
+    display: flex;
+    justify-content: center;
+}
