@@ -33,4 +33,4 @@ Project By Fabio Silveira and Alberto Couto.
 
 ## In class TODO:  Quiz w/ local storage, Teams stats with Chart.js, function to change Teams position Based on their wins.
 
-## Homework TODO: Questions : NEXT class refatorar e documentar codigo do projeto. 
+## Homework TODO: Questions : NEXT class refatorar e documentar codigo do projeto. ** Question About local storage

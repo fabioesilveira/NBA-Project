@@ -1,4 +1,4 @@
-export const easternConference = [
+export const dataEastern = [
    
     {
         id: 1,
@@ -183,7 +183,7 @@ export const easternConference = [
 
 ];
 
-export const westernConference = [
+export const dataWeastern = [
     
     {
         id: 16,
@@ -368,7 +368,7 @@ export const westernConference = [
     
 ];
 
-export const championships = [
+export const dataTiers = [
 
     {
         url: ["https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"],

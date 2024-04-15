@@ -1,42 +1,32 @@
 import { createCalendar } from "./functions/createCalendar.js"
 import { createElement } from "./functions/createElement.js"
 import { createTiers } from "./functions/createTiers.js"
-import { easternConference, westernConference, championships } from "./data/data.js"
+import { dataEastern, dataWeastern, dataTiers } from "./data/data.js"
+import { searchTeam } from "./functions/searchTeam.js"
 
-const newData = [...easternConference, ...westernConference]
-const westernTeams = document.getElementById("westernTeams")
-const easternTeams = document.getElementById("easternTeams")
+
+const dataAllConferences = [...dataEastern, ...dataWeastern]
+const divWeastern = document.getElementById("div-weastern")
+const divEastern = document.getElementById("div-eastern")
 const searchNav = document.getElementById("search-nav")
-const nbaTiers = document.getElementById("tiers")
+const divTiers = document.getElementById("div-tiers")
 const searchTeamInput = document.getElementById("searchTeam")
-const searchedTeam = document.getElementById("div-search")
+const divSearch = document.getElementById("div-search")
 
 
-function searchTeam(event) {
-    event.preventDefault()
-    const value = searchTeamInput.value
-    
-    const filterTeam = newData.filter(e => e.team === value || e.stadium === value) 
-    if (filterTeam.length > 0) {
-        searchedTeam.innerHTML = ""
-        createElement(filterTeam, searchedTeam)
-        easternTeams.innerHTML = ""
-        westernTeams.innerHTML = ""
-    }
-    else {
-        alert("We couldn't find anything, please try again")
-    }
-   
-};
+
 
 window.addEventListener("load", () => {
-    createElement(easternConference, easternTeams);
-    createElement(westernConference, westernTeams);
-    createTiers(championships, nbaTiers);
+    createElement(dataEastern, divEastern);
+    createElement(dataWeastern, divWeastern);
+    createTiers(dataTiers, divTiers);
     createCalendar();
 });
 
-searchNav.addEventListener("click", searchTeam)
+searchNav.addEventListener("click", (event) => {
+    event.preventDefault()
+    searchTeam(dataAllConferences, divSearch, searchTeamInput)
+})
 
 
 
