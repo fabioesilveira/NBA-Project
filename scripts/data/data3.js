@@ -9,15 +9,15 @@ export const questions = [
         ]
     },
 
-    // {
-    //     q: "How many games each team get to play for the regular season?",
-    //     a: [
-    //         { text: '82', isCorrect: true },
-    //         { text: '81', isCorrect: false },
-    //         { text: '80', isCorrect: false },
-    //         { text: '90', isCorrect: false }
-    //     ]
-    // },
+    {
+        q: "How many games each team get to play for the regular season?",
+        a: [
+            { text: '82', isCorrect: true },
+            { text: '81', isCorrect: false },
+            { text: '80', isCorrect: false },
+            { text: '90', isCorrect: false }
+        ]
+    },
 
     // {
 
