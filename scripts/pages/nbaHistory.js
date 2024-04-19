@@ -8,17 +8,9 @@ const divQuizP = document.getElementById("div-quiz-p")
 const inputNameQuiz = document.getElementById("input-name-quiz")
 const divRankingQuiz = document.getElementById("div-ranking-users")
 
-var dataRanking = localStorage.getItem("data-ranking")
-var userName = "";
-
-window.addEventListener("load", () => {
-    createCalendar();
-    if (!dataRanking) {
-        localStorage.setItem("data-ranking", JSON.stringify([]))
-    }
-});
-
-var answer = false;
+let dataRanking = localStorage.getItem("data-ranking")
+let userName = "";
+let answer = false;
 let score = 0
 let index = 0
 
@@ -47,6 +39,22 @@ function handleQuiz() {
     divQuizP.style.display = "none"
 }
 
+
+function createRanking() {
+    const newDataRanking = JSON.parse(localStorage.getItem("data-ranking"))
+    newDataRanking.map(element => (divRankingQuiz.innerHTML += `
+    <p>Name: ${element.userName}/ Score: ${element.score}</p>`));
+};
+
+
+window.addEventListener("load", () => {
+    createCalendar();
+    if (!dataRanking) {
+        localStorage.setItem("data-ranking", JSON.stringify([]))
+    }
+    createRanking();
+});
+
 btnQuiz.addEventListener("click", handleQuiz)
 btnQuestion.addEventListener("click", () => {
     if (answer === "true") {
@@ -62,24 +70,16 @@ btnQuestion.addEventListener("click", () => {
         divQuiz.style.display = "none"
         btnQuestion.style.display = "none"
 
-        
+
         dataRanking = JSON.parse(localStorage.getItem("data-ranking"))
-        dataRanking.push({userName, score})
+        dataRanking.push({ userName, score })
         localStorage.setItem("data-ranking", JSON.stringify(dataRanking))
 
         divQuizP.innerHTML = `
       <p class="text-center fw-bold">Congratulations 🎉, You've scored ${score} points of 10.</p>
       <button class="btn btn-danger col-1 mx-auto mt-2 mb-2 btn-finish" onclick="window.location.reload()">Finish Quiz</button>
       `
-
-
-    }
+    };
 
     createQuiz(index)
-})
-
-const newDataRanking = JSON.parse(localStorage.getItem("data-ranking"))
-newDataRanking.map(element => (divRankingQuiz.innerHTML += `
-    <p>Name: ${element.userName}/ Score: ${element.score}</p>
-    
-`))
+});
