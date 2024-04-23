@@ -260,3 +260,127 @@ export const westernRegularSeason = [
         g: 76
     },
 ];
+
+const easternStatsRegSeason = [
+    {
+        id: 1,
+        team: "Celtics",
+        points: 120.6,
+        threePoints: 38.8,
+        homeWins: 37,
+        awayWins: 27
+    },
+    {
+        id: 2,
+        team: "76ers",
+        points: 114.6,
+        threePoints: 36.3,
+        homeWins: 25,
+        awayWins: 22
+    },
+    {
+        id: 3,
+        team: "Knicks",
+        points: 112.8,
+        threePoints: 36.9,
+        homeWins: 27,
+        awayWins: 23
+    },
+    {
+        id: 4,
+        team: "Nets",
+        points: 110.4,
+        threePoints: 36.2,
+        homeWins: 20,
+        awayWins: 12
+    },
+    {
+        id: 5,
+        team: "Raptors",
+        points: 112.4,
+        threePoints: 34.7,
+        homeWins: 14,
+        awayWins: 11
+    },
+    {
+        id: 6,
+        team: "Bucks",
+        points: 112.3,
+        threePoints: 37.3,
+        homeWins: 31,
+        awayWins: 18
+    },
+    {
+        id: 7,
+        team: "Pacers",
+        points: 123.3,
+        threePoints: 37.4,
+        homeWins: 26,
+        awayWins: 21
+    },
+    {
+        id: 8,
+        team: "Pistons",
+        points: 109.9,
+        threePoints: 34.8,
+        homeWins: 7,
+        awayWins: 7
+    },
+    {
+        id: 9,
+        team: "Cavaliers",
+        points: 112.6,
+        threePoints: 36.7,
+        homeWins: 26,
+        awayWins: 22
+    },
+    {
+        id: 10,
+        team: "Bulls",
+        points: 112.3,
+        threePoints: 35.8,
+        homeWins: 20,
+        awayWins: 19
+    },
+    {
+        id: 11,
+        team: "Heat",
+        points: 110.1,
+        threePoints: 37.0,
+        homeWins: 22,
+        awayWins: 24
+    },
+    {
+        id: 12,
+        team: "Magic",
+        points: 110.5,
+        threePoints: 35.2,
+        homeWins: 29,
+        awayWins: 18
+    },
+    {
+        id: 13,
+        team: "Wizards",
+        points: 113.7,
+        threePoints: 34.8,
+        homeWins: 7,
+        awayWins: 8
+    },
+    {
+        id: 14,
+        team: "Hawks",
+        points: 118.3,
+        threePoints: 36.4,
+        homeWins: 21,
+        awayWins: 15
+    },
+    {
+        id: 15,
+        team: "Hornets",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    
+]

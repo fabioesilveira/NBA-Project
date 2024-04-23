@@ -14,7 +14,7 @@ function createChart(data) {
     var statsChart = new Chart(myChart, {
         type: 'bar',
         data: {
-            labels:["WINS", "LOSTS", "GAMES"],
+            labels:["WINS", "LOSTS", "GAMES", "Points"],
             datasets:[{
                 label:'Regular Season',
                 data,
