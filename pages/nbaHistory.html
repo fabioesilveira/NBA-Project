@@ -134,26 +134,25 @@
     </div>
 
     <div class="container card h2-quiz">
-
         <h2 class="nba-quiz mt-2">Nba Quiz</h2>
-
-
         <div id="div-quiz-start">
             <p class="fs-5 text-center fw-bold">Take a moment to test your knowledge in NBA with everything you have
                 learned
-                so far at our page.</p>
-
+                so far at our page.
+            </p>
+            
             <div class="input-history">
-                <label class="label-history">*Before starting the quiz, enter your name below.</label>
-                <input id="input-name-quiz" class="form-control input-size" placeholder="Name">
+                <label class="label-history" for="input-name-quiz">*Before starting the quiz, enter your name below.</label>
+                <input id="input-name-quiz" class="form-control input-size" placeholder="Name" required>
             </div>
             <button id="btn-start-quiz" class="btn btn-danger d-grid gap-2 col-1 mx-auto mb-2" type="button">Start
-                Quiz</button>
+                Quiz
+            </button>
         </div>
 
 
         <div id="div-quiz"></div>
-        <button id="btn-question" class="btn btn-danger col-1 mx-auto mt-2 mb-2" style="display: none">Submit</button>
+        <button id="btn-submit" class="btn btn-danger col-1 mx-auto mt-2 mb-2" style="display: none">Submit</button>
 
     </div>
 
