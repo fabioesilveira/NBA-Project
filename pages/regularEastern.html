@@ -73,7 +73,7 @@
             away teams:</div>
 
         <div class="input-group mb-3">
-            <select class="form-select btn btn-outline-primary dropdown-toggle" aria-label="Default select example">
+            <select id="select-home" class="form-select btn btn-outline-primary dropdown-toggle" aria-label="Default select example">
                 <option selected>Select a Team</option>
                 <option value="Celtics">Celtics</option>
                 <option value="Cavaliers">Cavaliers</option>
@@ -108,11 +108,11 @@
 
             </select>
             
-            <input type="text" class="form-control text-end" placeholder="Home" aria-label="Username">
+            <input id="input-home" type="text" class="form-control text-end" placeholder="Home" aria-label="Username">
             <span class="input-group-text">x</span>
-            <input type="text" class="form-control" placeholder="Away" aria-label="Server">
+            <input id="input-away" type="text" class="form-control" placeholder="Away" aria-label="Server">
             
-            <select class="form-select btn btn-outline-primary dropdown-toggle" aria-label="Default select example">
+            <select id="select-away" class="form-select btn btn-outline-primary dropdown-toggle" aria-label="Default select example">
                 <option selected>Select a Team</option>
                 <option value="Celtics">Celtics</option>
                 <option value="Cavaliers">Cavaliers</option>
@@ -146,7 +146,7 @@
                 <option value="Spurs">Spurs</option>
 
             </select>
-            <button class="btn btn-outline-danger" type="button">Submit</button>
+            <button id="btn-submit" class="btn btn-outline-danger" type="button">Submit</button>
         </div>
 
         <div class="div-standings-e">East Standings:</div>
