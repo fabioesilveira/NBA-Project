@@ -261,7 +261,7 @@ export const westernRegularSeason = [
     },
 ];
 
-const easternStatsRegSeason = [
+export const easternStatsRegSeason = [
     {
         id: 1,
         team: "Celtics",
