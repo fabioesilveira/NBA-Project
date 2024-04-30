@@ -383,4 +383,128 @@ export const easternStatsRegSeason = [
         awayWins: 10
     },
     
+];
+
+export const westernStatsRegSeason = [
+    {
+        id: 1,
+        team: "Nuggets",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+        
+    },
+    {
+        id: 2,
+        team: "Jazz",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 3,
+        team: "Thunder",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 4,
+        team: "Timberwolves",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 5,
+        team: "TrailBlazers",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 6,
+        team: "Clippers",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 7,
+        team: "Warriors",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 8,
+        team: "Kings",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 9,
+        team: "Lakers",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 10,
+        team: "Suns",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 11,
+        team: "Mavericks",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 12,
+        team: "Pelicans",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 13,
+        team: "Spurs",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 14,
+        team: "Rockets",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
+    {
+        id: 15,
+        team: "Grizzlies",
+        points: 106.6,
+        threePoints: 35.5,
+        homeWins: 11,
+        awayWins: 10
+    },
 ]
