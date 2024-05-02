@@ -1,9 +1,11 @@
 import { createCalendar } from "../functions/createCalendar.js";
 import { createTable } from "../functions/createTable.js";
-import { westernRegularSeason } from "../data/data2.js";
+import { westernRegularSeason, westernStatsRegSeason } from "../data/data2.js";
 
-const tableWestern = document.getElementById("tableWestern")
+const tableWestern = document.getElementById("tableWestern");
 var dataWestern = localStorage.getItem("dataWestern");
+const btnsChart = document.querySelectorAll(".btn-team");
+let chartInit;
 
 function createChart(data) {
     const myChart = document.getElementById("myChart").getContext('2d');
@@ -33,8 +35,10 @@ function app() {
     }
 
     const data = JSON.parse(localStorage.getItem("dataWestern"));
+    const dataChartInit = [westernStatsRegSeason[0].points, westernStatsRegSeason[0].threePoints, westernStatsRegSeason[0].homeWins, westernStatsRegSeason[0].awayWins];
 
     createTable(data, tableWestern);
+    chartInit = createChart(dataChartInit);
     createCalendar();
 }
 
@@ -42,7 +46,7 @@ window.addEventListener("load", app());
 
 btnsChart.forEach((e, i) => {
     e.addEventListener("click", () => {
-        const dataChartInit = [easternStatsRegSeason[i].points, easternStatsRegSeason[i].threePoints, easternStatsRegSeason[i].homeWins, easternStatsRegSeason[i].awayWins];
+        const dataChartInit = [westernStatsRegSeason[i].points, westernStatsRegSeason[i].threePoints, westernStatsRegSeason[i].homeWins, westernStatsRegSeason[i].awayWins];
 
         chartInit.destroy();
         chartInit = createChart(dataChartInit);
