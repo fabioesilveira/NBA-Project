@@ -54,5 +54,3 @@ btnsChart.forEach((e, i) => {
 });
 
 
-window.addEventListener("load", () => app());
-
