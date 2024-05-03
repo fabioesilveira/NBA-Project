@@ -391,8 +391,8 @@ export const westernStatsRegSeason = [
         team: "Nuggets",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 33,
+        awayWins: 24
         
     },
     {
@@ -400,7 +400,7 @@ export const westernStatsRegSeason = [
         team: "Jazz",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
+        homeWins: 21,
         awayWins: 10
     },
     {
@@ -408,16 +408,16 @@ export const westernStatsRegSeason = [
         team: "Thunder",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 33,
+        awayWins: 24
     },
     {
         id: 4,
         team: "Timberwolves",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 30,
+        awayWins: 26
     },
     {
         id: 5,
@@ -432,63 +432,63 @@ export const westernStatsRegSeason = [
         team: "Clippers",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 25,
+        awayWins: 26
     },
     {
         id: 7,
         team: "Warriors",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 21,
+        awayWins: 25
     },
     {
         id: 8,
         team: "Kings",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 24,
+        awayWins: 22
     },
     {
         id: 9,
         team: "Lakers",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 28,
+        awayWins: 19
     },
     {
         id: 10,
         team: "Suns",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 25,
+        awayWins: 24
     },
     {
         id: 11,
         team: "Mavericks",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 25,
+        awayWins: 25
     },
     {
         id: 12,
         team: "Pelicans",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 21,
+        awayWins: 28
     },
     {
         id: 13,
         team: "Spurs",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
+        homeWins: 12,
         awayWins: 10
     },
     {
@@ -496,15 +496,15 @@ export const westernStatsRegSeason = [
         team: "Rockets",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 27,
+        awayWins: 14
     },
     {
         id: 15,
         team: "Grizzlies",
         points: 106.6,
         threePoints: 35.5,
-        homeWins: 11,
-        awayWins: 10
+        homeWins: 9,
+        awayWins: 18
     },
 ]
