@@ -1,36 +1,102 @@
-# NBA-Project
+# 🏀 NBA Stats & History Web App  
+A fully-functional NBA dashboard built with **HTML, CSS, JavaScript, and Bootstrap**, featuring interactive standings, team search, quizzes, historical content, and dynamic charts.
 
-## Description
+This project lets users explore NBA teams, view standings, update match results, search teams, take quizzes, and access a full NBA history section — all in a clean, responsive interface.
 
-The National Basketball Association (NBA) is a professional basketball league in North America, comprising 30 teams. It is widely considered the premier men's professional basketball league in the world. If you are a basktball fan come check us out
+---
 
-## Usage
+## Features
 
+### Team Search  
+- Search Eastern + Western conference teams  
+- Accepts lowercase, uppercase, and partial matches  
+- Displays:
+  - Team logo  
+  - Stadium  
+  - Titles  
+  - Base city  
+  - Lineup (starting 5)  
+  - Championship years  
 
-## Technologies used
+---
 
-Bootstrap for framework and design, Chart.js.
+### NBA Standings (East & West)  
+Interactive standings table with manual score simulation:
 
-## Credits
+✔ Add home & away scores  
+✔ Automatic W/L/G update  
+✔ Standings reorder dynamically by wins  
+✔ LocalStorage saves your updated standings  
+✔ Auto-refresh after submission  
+✔ Buttons display each team’s statistical chart  
 
-Project By Fabio Silveira and Alberto Couto.
+---
+
+### Team Stats Chart (Chart.js)  
+Shows:
+- Points  
+- Three-pointers  
+- Home wins  
+- Away wins  
+
+Each team's button loads the respective data instantly.
+
+---
+
+### NBA Quiz  
+A fun knowledge quiz that:  
+- Has 10 questions  
+- Tracks correct answers  
+- Saves results in `localStorage`  
+- Displays a ranked scoreboard  
+- Allows infinite retries  
+- No timer — stress-free answering  
+- Shows final score summary  
+
+---
+
+### NBA Legends  
+A dedicated page listing NBA legends with images and info.
+
+---
+
+### Championship Tiers  
+- Conference championship comparison  
+- All-time team rankings  
+- Rendered dynamically using JS functions  
+
+---
+
+### NBA History  
+Includes:
+- Origins of the league  
+- ABA–NBA merger  
+- Playoff structure explanation  
+- Historical images  
+- Fully responsive layout  
+- Media queries applied for mobile  
+
+---
+
+## 🛠 Technologies Used
+
+- **HTML5**  
+- **CSS3**  
+- **Bootstrap 5**  
+- **JavaScript (ES6 modules)**  
+- **Chart.js**  
+- **LocalStorage API**  
+- **Google Fonts**  
+
+---
 
 ## Deployed Site
 
-![Screenshot of Deployed Website](/assets/images/deployed1.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot1.png)
 
-![Screenshot of Deployed Website](/assets/images/deployed2.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot3.png)
 
-![Screenshot of Deployed Website](/assets/images/deployed3.png)
-
-![Screenshot of Deployed Website](/assets/images/deployed4.png)
-
-![Screenshot of Deployed Website](/assets/images/deployed5.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot2.png)
 
 [Live Demo Link](https://nba-project-2024.netlify.app/)
 
-# Undone
-
-## In class TODO:  Quiz w/ local storage, Teams stats with Chart.js, function to change Teams position Based on their wins.
-
-## Homework TODO: Questions : NEXT class refatorar e documentar codigo do projeto. ** Question About local storage
