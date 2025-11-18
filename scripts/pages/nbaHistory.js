@@ -1,5 +1,8 @@
 import { createCalendar } from "../functions/createCalendar.js";
 import { questions } from "../data/data3.js";
+import { createTiers } from "../functions/createTiers.js";
+import { dataTiers } from "../data/data.js";
+
 
 const btnStartQuiz = document.getElementById("btn-start-quiz");
 const divQuiz = document.getElementById("div-quiz");
@@ -7,6 +10,7 @@ const btnSubmit = document.getElementById("btn-submit");
 const divQuizStart = document.getElementById("div-quiz-start");
 const inputNameQuiz = document.getElementById("input-name-quiz");
 const divRankingQuiz = document.getElementById("div-ranking-users");
+const divTiers = document.getElementById("div-tiers")
 
 let dataRanking = localStorage.getItem("data-ranking");
 let userName = "";
@@ -95,12 +99,14 @@ function createRanking() {
 
 window.addEventListener("load", () => {
     createCalendar();
+    createTiers(dataTiers, divTiers);
     if (!dataRanking) {
         localStorage.setItem("data-ranking", JSON.stringify([]))
     };
 
     createRanking();
 });
+
 
 btnStartQuiz.addEventListener("click", handleStartQuiz);
 btnSubmit.addEventListener("click", handleNextQuestion);
