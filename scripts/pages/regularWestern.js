@@ -42,6 +42,7 @@ function app() {
     createCalendar();
 }
 
+// evento de load garante que o html carrega primeiro depois JS.
 window.addEventListener("load", app());
 
 btnsChart.forEach((e, i) => {
