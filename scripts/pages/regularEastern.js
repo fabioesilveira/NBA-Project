@@ -3,91 +3,123 @@ import { createTable } from "../functions/createTable.js";
 import { easternRegularSeason, easternStatsRegSeason } from "../data/data2.js";
 
 const tableEastern = document.getElementById("tableEastern");
-let dataEastern = localStorage.getItem("dataEastern");
+let chartInit;
+
 const btnsChart = document.querySelectorAll(".btn-team");
 const selectHome = document.getElementById("select-home");
 const selectAway = document.getElementById("select-away");
 const inputHome = document.getElementById("input-home");
 const inputAway = document.getElementById("input-away");
 const btnSubmit = document.getElementById("btn-submit");
-let chartInit;
 
 function createChart(data) {
-    const myChart = document.getElementById("myChart").getContext('2d');
-    const statsChart = new Chart(myChart, {
-        type: 'bar',
-        data: {
-            labels: ["POINTS", "3POINTS", "HOME WINS", "AWAY WINS"],
-            datasets: [{
-                label: 'Regular Season',
-                data,
-                backgroundColor: 'rgb(36, 36, 142)',
-                borderWidth: 3,
-                borderColor: 'black',
-                hoverBorderWidth: 4,
-                hoverBorderColor: 'red'
+  const ctx = document.getElementById("myChart").getContext("2d");
 
-            }]
+  return new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: ["POINTS", "3POINTS", "HOME WINS", "AWAY WINS"],
+      datasets: [
+        {
+          label: "Regular Season",
+          data,
+          backgroundColor: "rgb(36, 36, 142)",
+          borderWidth: 3,
+          borderColor: "black",
+          hoverBorderWidth: 4,
+          hoverBorderColor: "red",
         },
-        options: {}
-    });
-    return statsChart;
-};
+      ],
+    },
+    options: {},
+  });
+}
 
 function app() {
-    if (!dataEastern) {
-        localStorage.setItem("dataEastern", JSON.stringify(easternRegularSeason))
-    };
+  // Initialize localStorage once
+  if (!localStorage.getItem("dataEastern")) {
+    localStorage.setItem("dataEastern", JSON.stringify(easternRegularSeason));
+  }
 
-    const data = JSON.parse(localStorage.getItem("dataEastern"))
-    const dataChartInit = [easternStatsRegSeason[0].points, easternStatsRegSeason[0].threePoints, easternStatsRegSeason[0].homeWins, easternStatsRegSeason[0].awayWins];
-    const dataRanking = data.sort((a, b) => b.w - a.w)
- console.log(dataRanking)
-    createTable(dataRanking, tableEastern);
-    chartInit = createChart(dataChartInit);
-    createCalendar();
-};
+  const data = JSON.parse(localStorage.getItem("dataEastern"));
+  // Sort by wins (desc)
+  const dataRanking = data.sort((a, b) => b.w - a.w);
 
-window.addEventListener("load", app());
+  const dataChartInit = [
+    easternStatsRegSeason[0].points,
+    easternStatsRegSeason[0].threePoints,
+    easternStatsRegSeason[0].homeWins,
+    easternStatsRegSeason[0].awayWins,
+  ];
 
-btnsChart.forEach((e, i) => {
-    e.addEventListener("click", () => {
-        const dataChartInit = [easternStatsRegSeason[i].points, easternStatsRegSeason[i].threePoints, easternStatsRegSeason[i].homeWins, easternStatsRegSeason[i].awayWins];
+  createTable(dataRanking, tableEastern);
+  chartInit = createChart(dataChartInit);
+  createCalendar();
 
-        chartInit.destroy();
-        chartInit = createChart(dataChartInit);
+  // Attach chart buttons after table & DOM are ready
+  btnsChart.forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+      const stats = easternStatsRegSeason[i];
+      const dataChart = [
+        stats.points,
+        stats.threePoints,
+        stats.homeWins,
+        stats.awayWins,
+      ];
+
+      chartInit.destroy();
+      chartInit = createChart(dataChart);
     });
-});
+  });
+}
 
+// ✅ Important: pass the function, don’t call it here
+window.addEventListener("load", app);
+
+// ---- Submit game result & refresh ----
 btnSubmit.addEventListener("click", () => {
-    console.log(inputHome.value, selectHome.value)
-if (selectHome.value === selectAway.value) {
-    return alert("Please, select different teams")
-}
-if (inputHome.value === inputAway.value) {
-    return alert("Teams can't be tied up")
-}
-    const data = JSON.parse(localStorage.getItem("dataEastern"))
-    data.forEach(element => {
-        if (selectHome.value === element.team) {
-            if (inputHome.value > inputAway.value) {
-                element.g += 1;
-                element.w += 1;
-            } else {
-                element.g += 1;
-                element.l += 1;
-            }
-        };
-        if (selectAway.value === element.team) {
-            if (inputAway.value > inputHome.value) {
-                element.g += 1;
-                element.w += 1;
-            } else {
-                element.g += 1;
-                element.l += 1;
-            }
-        }
-    });
-    localStorage.setItem("dataEastern", JSON.stringify(data))
-    return window.location.reload()
-})
+  // basic validations
+  if (selectHome.value === selectAway.value) {
+    return alert("Please, select different teams");
+  }
+
+  if (inputHome.value === inputAway.value) {
+    return alert("Teams can't be tied up");
+  }
+
+  const homeScore = Number(inputHome.value);
+  const awayScore = Number(inputAway.value);
+
+  if (Number.isNaN(homeScore) || Number.isNaN(awayScore)) {
+    return alert("Please enter valid numeric scores.");
+  }
+
+  const data = JSON.parse(localStorage.getItem("dataEastern"));
+
+  data.forEach((team) => {
+    // Home team
+    if (selectHome.value === team.team) {
+      team.g += 1;
+      if (homeScore > awayScore) {
+        team.w += 1;
+      } else {
+        team.l += 1;
+      }
+    }
+
+    // Away team
+    if (selectAway.value === team.team) {
+      team.g += 1;
+      if (awayScore > homeScore) {
+        team.w += 1;
+      } else {
+        team.l += 1;
+      }
+    }
+  });
+
+  localStorage.setItem("dataEastern", JSON.stringify(data));
+
+  // 🔁 Auto-refresh page so table + chart reload with new data
+  window.location.reload();
+});

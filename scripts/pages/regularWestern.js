@@ -3,55 +3,190 @@ import { createTable } from "../functions/createTable.js";
 import { westernRegularSeason, westernStatsRegSeason } from "../data/data2.js";
 
 const tableWestern = document.getElementById("tableWestern");
-var dataWestern = localStorage.getItem("dataWestern");
-const btnsChart = document.querySelectorAll(".btn-team");
 let chartInit;
 
-function createChart(data) {
-    const myChart = document.getElementById("myChart").getContext('2d');
-    const statsChart = new Chart(myChart, {
-        type: 'bar',
-        data: {
-            labels: ["POINTS", "3POINTS", "HOME WINS", "AWAY WINS"],
-            datasets: [{
-                label: 'Regular Season',
-                data,
-                backgroundColor: 'rgb(36, 36, 142)',
-                borderWidth: 3,
-                borderColor: 'black',
-                hoverBorderWidth: 4,
-                hoverBorderColor: 'red'
-
-            }]
-        },
-        options: {}
-    });
-    return statsChart;
-};
-
-function app() {
-    if(!dataWestern){
-        localStorage.setItem("dataWestern", JSON.stringify(westernRegularSeason))
-    }
-
-    const data = JSON.parse(localStorage.getItem("dataWestern"));
-    const dataChartInit = [westernStatsRegSeason[0].points, westernStatsRegSeason[0].threePoints, westernStatsRegSeason[0].homeWins, westernStatsRegSeason[0].awayWins];
-
-    createTable(data, tableWestern);
-    chartInit = createChart(dataChartInit);
-    createCalendar();
+// --- helpers to read/save standings in localStorage ---
+function getWesternData() {
+  const stored = localStorage.getItem("dataWestern");
+  return stored ? JSON.parse(stored) : [...westernRegularSeason];
 }
 
-// evento de load garante que o html carrega primeiro depois JS.
-window.addEventListener("load", app());
+function setWesternData(data) {
+  localStorage.setItem("dataWestern", JSON.stringify(data));
+}
 
-btnsChart.forEach((e, i) => {
-    e.addEventListener("click", () => {
-        const dataChartInit = [westernStatsRegSeason[i].points, westernStatsRegSeason[i].threePoints, westernStatsRegSeason[i].homeWins, westernStatsRegSeason[i].awayWins];
+// --- Chart ---
+function createChart(data) {
+  const ctx = document.getElementById("myChart").getContext("2d");
 
-        chartInit.destroy();
-        chartInit = createChart(dataChartInit);
-    });
-});
+  return new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: ["POINTS", "3PT MADE", "HOME WINS", "AWAY WINS"],
+      datasets: [
+        {
+          label: "Regular Season",
+          data,
+          backgroundColor: "rgb(36, 36, 142)",
+          borderWidth: 3,
+          borderColor: "black",
+          hoverBorderWidth: 4,
+          hoverBorderColor: "red",
+        },
+      ],
+    },
+    options: {},
+  });
+}
 
+// --- Update W/L and reorder table ---
+function updateResult(teamName, resultType) {
+  const data = getWesternData();
 
+  const index = data.findIndex((t) => t.team === teamName);
+  if (index === -1) {
+    console.warn("Team not found in westernRegularSeason:", teamName);
+    return;
+  }
+
+  if (resultType === "W") data[index].w += 1;
+  if (resultType === "L") data[index].l += 1;
+
+  data[index].g = data[index].w + data[index].l;
+
+  // Sort by wins desc, then losses asc
+  data.sort((a, b) => {
+    if (b.w !== a.w) return b.w - a.w;
+    return a.l - b.l;
+  });
+
+  setWesternData(data);
+  createTable(data, tableWestern); // re-render table
+}
+
+// --- Chart buttons under "Teams Stats" ---
+function attachChartButtons() {
+  const btnsChart = document.querySelectorAll(".btn-team");
+
+  btnsChart.forEach((btn, i) => {
+    btn.onclick = () => {
+      const stats = westernStatsRegSeason[i];
+      const dataChart = [
+        stats.points,
+        stats.threePoints,
+        stats.homeWins,
+        stats.awayWins,
+      ];
+
+      if (chartInit) chartInit.destroy();
+      chartInit = createChart(dataChart);
+    };
+  });
+}
+
+// --- Wire the score form (selects + inputs + Submit) ---
+function attachScoreForm() {
+  const inputGroup = document.querySelector(".input-group");
+  if (!inputGroup) return;
+
+  const selects = inputGroup.querySelectorAll(".form-select");
+  const inputs = inputGroup.querySelectorAll('input.form-control');
+  const submitBtn = inputGroup.querySelector(".btn-outline-danger");
+
+  if (selects.length < 2 || inputs.length < 2 || !submitBtn) return;
+
+  const homeSelect = selects[0];
+  const awaySelect = selects[1];
+  const homeInput = inputs[0];
+  const awayInput = inputs[1];
+
+  submitBtn.addEventListener("click", () => {
+    const homeTeam = homeSelect.value;
+    const awayTeam = awaySelect.value;
+    const homeScore = parseInt(homeInput.value, 10);
+    const awayScore = parseInt(awayInput.value, 10);
+
+    if (
+      !homeTeam ||
+      !awayTeam ||
+      homeTeam === "Select a Team" ||
+      awayTeam === "Select a Team"
+    ) {
+      alert("Please select both teams.");
+      return;
+    }
+
+    if (homeTeam === awayTeam) {
+      alert("Home and Away team must be different.");
+      return;
+    }
+
+    if (isNaN(homeScore) || isNaN(awayScore)) {
+      alert("Please enter valid scores for both teams.");
+      return;
+    }
+
+    // Decide winner/loser and update standings
+    if (homeScore > awayScore) {
+      updateResult(homeTeam, "W");
+      updateResult(awayTeam, "L");
+    } else if (awayScore > homeScore) {
+      updateResult(awayTeam, "W");
+      updateResult(homeTeam, "L");
+    } else {
+      alert("You entered a tie. This demo only supports win/loss.");
+      return;
+    }
+
+    // Clear scores
+    homeInput.value = "";
+    awayInput.value = "";
+
+    location.reload();
+
+    // Recreate chart for the first team, so user sees something fresh
+    const currentData = getWesternData();
+    const firstTeam = currentData[0];
+    const statsIndex = westernStatsRegSeason.findIndex(
+      (t) => t.team === firstTeam.team
+    );
+    if (statsIndex !== -1) {
+      const stats = westernStatsRegSeason[statsIndex];
+      const dataChart = [
+        stats.points,
+        stats.threePoints,
+        stats.homeWins,
+        stats.awayWins,
+      ];
+      if (chartInit) chartInit.destroy();
+      chartInit = createChart(dataChart);
+    }
+  });
+}
+
+// --- Init ---
+function app() {
+  if (!localStorage.getItem("dataWestern")) {
+    setWesternData(westernRegularSeason);
+  }
+
+  const data = getWesternData();
+
+  // build standings table
+  createTable(data, tableWestern);
+
+  // initial chart (first team)
+  const initialStats = westernStatsRegSeason[0];
+  chartInit = createChart([
+    initialStats.points,
+    initialStats.threePoints,
+    initialStats.homeWins,
+    initialStats.awayWins,
+  ]);
+
+  createCalendar();
+  attachChartButtons();
+  attachScoreForm();
+}
+
+window.addEventListener("load", app);
