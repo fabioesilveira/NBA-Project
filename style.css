@@ -6,7 +6,7 @@
 .nba {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .easternConference {
@@ -16,7 +16,7 @@
     margin-right: auto;
     width: 50%;
     width: 85px;
-    
+
 }
 
 .westernConference {
@@ -25,7 +25,7 @@
     margin-right: auto;
     width: 50%;
     width: 85px;
-    
+
 }
 
 .h1 {
@@ -37,32 +37,53 @@
     text-align: center;
 }
 
+.h2-tables {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(1, 1, 168);
+}
+
 .div-h2 {
-  display: flex;
-  max-width: 1100px;
-  margin: 30px auto 10px;
-  gap: 20px;              /* match the gap between the cards below */
+    display: flex;
+    max-width: 1100px;
+    margin: 30px auto 10px;
+    gap: 20px;
+    /* match the gap between the cards below */
 }
 
 .east,
 .west {
-  flex: 1;                /* <-- each title now takes 50% of the row */
-  text-align: center;     /* <-- center the text inside that half */
-  font-size: 40px;
-  font-family: "Rubik Distressed", system-ui;
-  color: rgb(36, 36, 142);
+    flex: 1;
+    /* <-- each title now takes 50% of the row */
+    text-align: center;
+    /* <-- center the text inside that half */
+    font-size: 40px;
+    font-family: "Rubik Distressed", system-ui;
+    color: rgb(36, 36, 142);
 }
 
 .nba {
-  display: flex;
-  gap: 20px;
-  max-width: 1100px;
-  margin: 0 auto 40px; /* center and add bottom spacing */
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    /* center and add bottom spacing */
+}
+
+#div-search,
+#div-eastern,
+#div-weastern {
+    min-height: 500px;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
 }
 
 #div-eastern,
 #div-weastern {
-  flex: 1;
+    flex: 1;
 }
 
 .easternConference2 {
@@ -91,8 +112,14 @@
 }
 
 .img-home {
-    width: 800px;
-    height: 420px;
+    width: 100%;
+    height: auto;
+    /* keeps proportions */
+    max-width: 800px;
+    /* optional limit */
+    display: block;
+    margin: 20px auto;
+    /* center it */
 }
 
 .conference-tiers {
@@ -119,7 +146,7 @@
     font-style: normal;
     font-size: 80px;
     text-align: center;
-    
+
 }
 
 .img-history1 {
@@ -199,13 +226,13 @@
 }
 
 .stadium-block {
-    
+
     display: inline-block;
 }
 
 .popularity-teams {
     font-family: "Rubik Distressed", system-ui;
-    
+
     font-weight: 400;
     font-style: normal;
     margin-left: 465px;
@@ -251,7 +278,7 @@
     justify-content: center;
     font-size: 17px;
     gap: 6px;
-    
+
 }
 
 .user {
@@ -276,25 +303,30 @@
     justify-content: center;
 }
 
-.users-ranking-h4{
+.users-ranking-h4 {
     display: flex;
     justify-content: center;
     font-family: "Rubik Distressed", system-ui;
 }
 
-.input-history{
-    
+.input-history {
+
     justify-content: center;
     margin-bottom: 10px;
-    
+
 }
 
-.input-size{
+.input-size {
     width: 370px;
     margin-left: 472px;
 }
 
-.label-history{
+.label-history {
     display: flex;
     justify-content: center;
+}
+
+#div-search {
+    display: none;
+    /* hidden by default */
 }
