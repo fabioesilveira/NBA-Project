@@ -3,6 +3,8 @@ A fully-functional NBA dashboard built with **HTML, CSS, JavaScript, and Bootstr
 
 This project lets users explore NBA teams, view standings, update match results, search teams, take quizzes, and access a full NBA history section — all in a clean, responsive interface.
 
+[Live Application Demo](https://nba-project-2024.netlify.app/)
+
 ---
 
 ## Features
@@ -78,7 +80,7 @@ Includes:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML5**  
 - **CSS3**  
@@ -92,11 +94,11 @@ Includes:
 
 ## Deployed Site
 
-![Screenshot of Deployed Website](/assets/images/Screenshot1.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot4.png)
 
 ![Screenshot of Deployed Website](/assets/images/Screenshot3.png)
 
 ![Screenshot of Deployed Website](/assets/images/Screenshot2.png)
 
-[Live Demo Link](https://nba-project-2024.netlify.app/)
+[Live Application Demo](https://nba-project-2024.netlify.app/)
 
