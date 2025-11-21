@@ -79,9 +79,9 @@ A dedicated page listing NBA legends with images and info.
 
 ![Screenshot of Deployed Website](/assets/images/Screenshot4.png)
 
-![Screenshot of Deployed Website](/assets/images/Screenshot3.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot30.png)
 
-![Screenshot of Deployed Website](/assets/images/Screenshot24.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot31.png)
 
 [Live Application Demo](https://nba-project-2024.netlify.app/)
 
