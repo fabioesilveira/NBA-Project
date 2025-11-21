@@ -62,23 +62,6 @@ A dedicated page listing NBA legends with images and info.
 
 ---
 
-### Championship Tiers  
-- Conference championship comparison  
-- All-time team rankings  
-- Rendered dynamically using JS functions  
-
----
-
-### NBA History  
-Includes:
-- Origins of the league  
-- ABA–NBA merger  
-- Playoff structure explanation  
-- Historical images  
-- Fully responsive layout  
-- Media queries applied for mobile  
-
----
 
 ## Technologies Used
 
@@ -98,7 +81,7 @@ Includes:
 
 ![Screenshot of Deployed Website](/assets/images/Screenshot3.png)
 
-![Screenshot of Deployed Website](/assets/images/Screenshot2.png)
+![Screenshot of Deployed Website](/assets/images/Screenshot24.png)
 
 [Live Application Demo](https://nba-project-2024.netlify.app/)
 
